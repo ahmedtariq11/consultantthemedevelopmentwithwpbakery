@@ -1,0 +1,16 @@
+/*  
+Theme Name: Consult Child
+Theme URI:  https://helloxpart.com/consult
+Template: consult
+Author: Hello
+Author URI:  https://helloxpart.com/team
+Description: Consult is a multipurpose WordPress Theme.
+Version:1.0.0
+Tags: sticky-post, theme-options, threaded-comments, translation-ready
+text-domain: consult-child
+
+*/
+
+.page_title_banner_text h2 {
+    color: red;
+}

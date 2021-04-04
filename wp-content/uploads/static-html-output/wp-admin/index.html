@@ -1,0 +1,2441 @@
+<!DOCTYPE html>
+<html class="wp-toolbar" lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Dashboard ‹ CONSULANT — WordPress</title>
+<script type="text/javascript">
+addLoadEvent = function(func){if(typeof jQuery!=='undefined')jQuery(document).ready(func);else if(typeof wpOnload!=='function'){wpOnload=func;}else{var oldonload=wpOnload;wpOnload=function(){oldonload();func();}}};
+var ajaxurl = '/consultantthemedevelopmentwithwpbakery/wp-admin/admin-ajax.php',
+	pagenow = 'dashboard',
+	typenow = '',
+	adminpage = 'index-php',
+	thousandsSeparator = ',',
+	decimalPoint = '.',
+	isRtl = 0;
+</script>
+
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" href="https://ahmedtariq11.github.io/wp-admin/load-styles.php?c=0&amp;dir=ltr&amp;load%5Bchunk_0%5D=dashicons,admin-bar,site-health,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-poi&amp;load%5Bchunk_1%5D=nter,widgets,site-icon,l10n,buttons,wp-auth-check,media-views,wp-color-picker,wp-jquery-ui-dialog&amp;ver=5.5.3" type="text/css" media="all">
+<link rel="stylesheet" id="thickbox-css" href="https://ahmedtariq11.github.io/wp-includes/js/thickbox/thickbox.css?ver=5.5.3" media="all">
+<link rel="stylesheet" id="simply-static-admin-styles-css" href="https://ahmedtariq11.github.io/wp-content/plugins/simply-static/css/admin.css?ver=2.1.0" media="all">
+<link rel="stylesheet" id="mediaelement-css" href="https://ahmedtariq11.github.io/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.13-9993131" media="all">
+<link rel="stylesheet" id="wp-mediaelement-css" href="https://ahmedtariq11.github.io/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=5.5.3" media="all">
+<link rel="stylesheet" id="imgareaselect-css" href="https://ahmedtariq11.github.io/wp-includes/js/imgareaselect/imgareaselect.css?ver=0.9.8" media="all">
+<link rel="stylesheet" id="cs-framework-css" href="https://ahmedtariq11.github.io/wp-content/themes/consult/theme-options/assets/css/cs-framework.css?ver=1.0.0" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="https://ahmedtariq11.github.io/wp-content/themes/consult/theme-options/assets/css/font-awesome.css?ver=4.7.0" media="all">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/ahmedtariq11.github.io\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		
+<script type="text/javascript">
+/* <![CDATA[ */
+var userSettings = {"url":"\/consultantthemedevelopmentwithwpbakery\/","uid":"1","time":"1608306669","secure":""};/* ]]> */
+</script>
+<script type="text/javascript" src="https://ahmedtariq11.github.io/wp-admin/load-scripts.php?c=0&amp;load%5Bchunk_0%5D=jquery-core,utils,moxiejs,plupload&amp;ver=5.5.3"></script>
+
+	<link id="wp-admin-canonical" rel="canonical" href="https://ahmedtariq11.github.io/wp-admin/">
+	<script>
+		if ( window.history.replaceState ) {
+			window.history.replaceState( null, null, document.getElementById( 'wp-admin-canonical' ).href + window.location.hash );
+		}
+	</script>
+	<script type="text/javascript">var _wpColorScheme = {"icons":{"base":"#a0a5aa","focus":"#00a0d2","current":"#fff"}};</script>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"><style type="text/css" media="print">#wpadminbar { display:none; }</style>
+	</head>
+<body class="wp-admin wp-core-ui no-js index-php auto-fold admin-bar branch-5-5 version-5-5-3 admin-color-fresh locale-en-us no-customize-support no-svg">
+<script type="text/javascript">
+	document.body.className = document.body.className.replace('no-js','js');
+</script>
+
+	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+				request = true;
+	
+			b[c] = b[c].replace( rcs, ' ' );
+			// The customizer requires postMessage and CORS (if the site is cross domain).
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+	
+<div id="wpwrap">
+
+<div id="adminmenumain" role="navigation" aria-label="Main menu">
+<a href="#wpbody-content" class="screen-reader-shortcut">Skip to main content</a>
+<a href="#wp-toolbar" class="screen-reader-shortcut">Skip to toolbar</a>
+<div id="adminmenuback"></div>
+<div id="adminmenuwrap">
+<ul id="adminmenu">
+
+
+	<li class="wp-first-item wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-top-first menu-icon-dashboard menu-top-first" id="menu-dashboard">
+	<a href="https://ahmedtariq11.github.io/wp-admin/index.php" class="wp-first-item wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-top-first menu-icon-dashboard menu-top-first"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-dashboard"><br></div><div class="wp-menu-name">Dashboard</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Dashboard</li><li class="wp-first-item current"><a href="https://ahmedtariq11.github.io/wp-admin/index.php" class="wp-first-item current" aria-current="page">Home</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/update-core.php">Updates <span class="update-plugins count-2"><span class="update-count">2</span></span></a></li></ul></li>
+	<li class="wp-not-current-submenu menu-top toplevel_page_statichtmloutput menu-top-last" id="toplevel_page_statichtmloutput">
+	<a href="https://ahmedtariq11.github.io/wp-admin/admin.php?page=statichtmloutput" class="wp-not-current-submenu menu-top toplevel_page_statichtmloutput menu-top-last"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-migrate"><br></div><div class="wp-menu-name">Static HTML</div></a></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-post open-if-no-js menu-top-first" id="menu-posts">
+	<a href="https://ahmedtariq11.github.io/wp-admin/edit.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-post open-if-no-js menu-top-first" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-post"><br></div><div class="wp-menu-name">Posts</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Posts</li><li class="wp-first-item"><a href="https://ahmedtariq11.github.io/wp-admin/edit.php" class="wp-first-item">All Posts</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/post-new.php">Add New</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/edit-tags.php?taxonomy=category">Categories</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/edit-tags.php?taxonomy=post_tag">Tags</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" id="menu-media">
+	<a href="https://ahmedtariq11.github.io/wp-admin/upload.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-media"><br></div><div class="wp-menu-name">Media</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Media</li><li class="wp-first-item"><a href="https://ahmedtariq11.github.io/wp-admin/upload.php" class="wp-first-item">Library</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/media-new.php">Add New</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" id="menu-pages">
+	<a href="https://ahmedtariq11.github.io/wp-admin/edit.php?post_type=page" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-page"><br></div><div class="wp-menu-name">Pages</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Pages</li><li class="wp-first-item"><a href="https://ahmedtariq11.github.io/wp-admin/edit.php?post_type=page" class="wp-first-item">All Pages</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/post-new.php?post_type=page">Add New</a></li></ul></li>
+	<li class="wp-not-current-submenu menu-top menu-icon-comments menu-top-last" id="menu-comments">
+	<a href="https://ahmedtariq11.github.io/wp-admin/edit-comments.php" class="wp-not-current-submenu menu-top menu-icon-comments menu-top-last"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-comments"><br></div><div class="wp-menu-name">Comments <span class="awaiting-mod count-0"><span class="pending-count" aria-hidden="true">0</span><span class="comments-in-moderation-text screen-reader-text">0 Comments in moderation</span></span></div></a></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-appearance menu-top-first" id="menu-appearance">
+	<a href="https://ahmedtariq11.github.io/wp-admin/themes.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-appearance menu-top-first" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-appearance"><br></div><div class="wp-menu-name">Appearance</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Appearance</li><li class="wp-first-item"><a href="https://ahmedtariq11.github.io/wp-admin/themes.php" class="wp-first-item">Themes</a></li><li class="hide-if-no-customize"><a href="https://ahmedtariq11.github.io/wp-admin/customize.php?return=%2Fconsultantthemedevelopmentwithwpbakery%2Fwp-admin%2F" class="hide-if-no-customize">Customize</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/widgets.php">Widgets</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/nav-menus.php">Menus</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/theme-editor.php">Theme Editor</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" id="menu-plugins">
+	<a href="https://ahmedtariq11.github.io/wp-admin/plugins.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-plugins"><br></div><div class="wp-menu-name">Plugins <span class="update-plugins count-1"><span class="plugin-count">1</span></span></div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Plugins <span class="update-plugins count-1"><span class="plugin-count">1</span></span></li><li class="wp-first-item"><a href="https://ahmedtariq11.github.io/wp-admin/plugins.php" class="wp-first-item">Installed Plugins</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/plugin-install.php">Add New</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/plugin-editor.php">Plugin Editor</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" id="menu-users">
+	<a href="https://ahmedtariq11.github.io/wp-admin/users.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-users"><br></div><div class="wp-menu-name">Users</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Users</li><li class="wp-first-item"><a href="https://ahmedtariq11.github.io/wp-admin/users.php" class="wp-first-item">All Users</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/user-new.php">Add New</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/profile.php">Profile</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" id="menu-tools">
+	<a href="https://ahmedtariq11.github.io/wp-admin/tools.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-tools"><br></div><div class="wp-menu-name">Tools</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Tools</li><li class="wp-first-item"><a href="https://ahmedtariq11.github.io/wp-admin/tools.php" class="wp-first-item">Available Tools</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/import.php">Import</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/export.php">Export</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/site-health.php">Site Health</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/export-personal-data.php">Export Personal Data</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/erase-personal-data.php">Erase Personal Data</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_vc-general" id="toplevel_page_vc-general"><a href="https://ahmedtariq11.github.io/wp-admin/admin.php?page=vc-general" class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_vc-general" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before"><img src="https://ahmedtariq11.github.io/wp-content/plugins/js_composer/assets/vc/logo/wpb-logo-white_32.svg" alt=""></div><div class="wp-menu-name">WPBakery Page Builder</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">WPBakery Page Builder</li><li class="wp-first-item"><a href="https://ahmedtariq11.github.io/wp-admin/admin.php?page=vc-general" class="wp-first-item">General Settings</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/admin.php?page=vc-roles">Role Manager</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/admin.php?page=vc-color">Design Options</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/admin.php?page=vc-custom_css">Custom CSS</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/admin.php?page=vc-updater">Product License</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/admin.php?page=vc-automapper">Shortcode Mapper</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/edit.php?post_type=vc_grid_item">Grid Builder</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/admin.php?page=vc-welcome">About</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" id="menu-settings">
+	<a href="https://ahmedtariq11.github.io/wp-admin/options-general.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-settings"><br></div><div class="wp-menu-name">Settings</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Settings</li><li class="wp-first-item"><a href="https://ahmedtariq11.github.io/wp-admin/options-general.php" class="wp-first-item">General</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/options-writing.php">Writing</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/options-reading.php">Reading</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/options-discussion.php">Discussion</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/options-media.php">Media</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/options-permalink.php">Permalinks</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/options-privacy.php">Privacy</a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_simply-static menu-top-first" id="toplevel_page_simply-static"><a href="https://ahmedtariq11.github.io/wp-admin/admin.php?page=simply-static" class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_simply-static menu-top-first" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-media-text"><br></div><div class="wp-menu-name">Simply Static</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Simply Static</li><li class="wp-first-item"><a href="https://ahmedtariq11.github.io/wp-admin/admin.php?page=simply-static" class="wp-first-item">Generate</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/admin.php?page=simply-static_settings">Settings</a></li><li><a href="https://ahmedtariq11.github.io/wp-admin/admin.php?page=simply-static_diagnostics">Diagnostics</a></li></ul></li>
+	<li class="wp-not-current-submenu menu-top menu-icon-generic toplevel_page_cs-framework menu-top-last" id="toplevel_page_cs-framework">
+	<a href="https://ahmedtariq11.github.io/wp-admin/admin.php?page=cs-framework" class="wp-not-current-submenu menu-top menu-icon-generic toplevel_page_cs-framework menu-top-last"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-generic"><br></div><div class="wp-menu-name">Framework</div></a></li><li id="collapse-menu" class="hide-if-no-js"><button type="button" id="collapse-button" aria-label="Collapse Main menu" aria-expanded="true"><span class="collapse-button-icon" aria-hidden="true"></span><span class="collapse-button-label">Collapse menu</span></button></li></ul>
+</div>
+</div>
+<div id="wpcontent">
+
+		<div id="wpadminbar" class="nojq nojs">
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu"><li id="wp-admin-bar-menu-toggle"><a class="ab-item" href="#"><span class="ab-icon"></span><span class="screen-reader-text">Menu</span></a></li><li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://ahmedtariq11.github.io/wp-admin/about.php"><span class="ab-icon"></span><span class="screen-reader-text">About WordPress</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu"><li id="wp-admin-bar-about"><a class="ab-item" href="https://ahmedtariq11.github.io/wp-admin/about.php">About WordPress</a></li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu"><li id="wp-admin-bar-wporg"><a class="ab-item" href="https://wordpress.org/">WordPress.org</a></li><li id="wp-admin-bar-documentation"><a class="ab-item" href="https://codex.wordpress.org/">Documentation</a></li><li id="wp-admin-bar-support-forums"><a class="ab-item" href="https://wordpress.org/support/">Support</a></li><li id="wp-admin-bar-feedback"><a class="ab-item" href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li></ul></div></li><li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://ahmedtariq11.github.io/">CONSULANT</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu"><li id="wp-admin-bar-view-site"><a class="ab-item" href="https://ahmedtariq11.github.io/">Visit Site</a></li></ul></div></li><li id="wp-admin-bar-updates"><a class="ab-item" href="https://ahmedtariq11.github.io/wp-admin/update-core.php" title="1 WordPress Update, 1 Plugin Update"><span class="ab-icon"></span><span class="ab-label">2</span><span class="screen-reader-text">1 WordPress Update, 1 Plugin Update</span></a></li><li id="wp-admin-bar-comments"><a class="ab-item" href="https://ahmedtariq11.github.io/wp-admin/edit-comments.php"><span class="ab-icon"></span><span class="ab-label awaiting-mod pending-count count-0" aria-hidden="true">0</span><span class="screen-reader-text comments-in-moderation-text">0 Comments in moderation</span></a></li><li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://ahmedtariq11.github.io/wp-admin/post-new.php"><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu"><li id="wp-admin-bar-new-post"><a class="ab-item" href="https://ahmedtariq11.github.io/wp-admin/post-new.php">Post</a></li><li id="wp-admin-bar-new-media"><a class="ab-item" href="https://ahmedtariq11.github.io/wp-admin/media-new.php">Media</a></li><li id="wp-admin-bar-new-page"><a class="ab-item" href="https://ahmedtariq11.github.io/wp-admin/post-new.php?post_type=page">Page</a></li><li id="wp-admin-bar-new-user"><a class="ab-item" href="https://ahmedtariq11.github.io/wp-admin/user-new.php">User</a></li></ul></div></li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu"><li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" aria-haspopup="true" href="https://ahmedtariq11.github.io/wp-admin/profile.php">Howdy, <span class="display-name">admin</span><img alt="" src="https://1.gravatar.com/avatar/17b029d999044eeff6569f5155ac4c02?s=26&amp;d=mm&amp;r=g" srcset="https://1.gravatar.com/avatar/17b029d999044eeff6569f5155ac4c02?s=52&amp;d=mm&amp;r=g 2x" class="avatar avatar-26 photo" height="26" width="26" loading="lazy"></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu"><li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="https://ahmedtariq11.github.io/wp-admin/profile.php"><img alt="" src="https://1.gravatar.com/avatar/17b029d999044eeff6569f5155ac4c02?s=64&amp;d=mm&amp;r=g" srcset="https://1.gravatar.com/avatar/17b029d999044eeff6569f5155ac4c02?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64" loading="lazy"><span class="display-name">admin</span></a></li><li id="wp-admin-bar-edit-profile"><a class="ab-item" href="https://ahmedtariq11.github.io/wp-admin/profile.php">Edit Profile</a></li><li id="wp-admin-bar-logout"><a class="ab-item" href="https://ahmedtariq11.github.io/wp-login.php?action=logout&amp;_wpnonce=d05f2d8719">Log Out</a></li></ul></div></li></ul>			</div>
+						<a class="screen-reader-shortcut" href="https://ahmedtariq11.github.io/wp-login.php?action=logout&amp;_wpnonce=d05f2d8719">Log Out</a>
+					</div>
+
+		
+<div id="wpbody" role="main">
+
+<div id="wpbody-content">
+		<div id="screen-meta" class="metabox-prefs">
+
+			<div id="contextual-help-wrap" class="hidden" tabindex="-1" aria-label="Contextual Help Tab">
+				<div id="contextual-help-back"></div>
+				<div id="contextual-help-columns">
+					<div class="contextual-help-tabs">
+						<ul>
+						
+							<li id="tab-link-overview" class="active">
+								<a href="#tab-panel-overview" aria-controls="tab-panel-overview">
+									Overview								</a>
+							</li>
+							
+							<li id="tab-link-help-navigation">
+								<a href="#tab-panel-help-navigation" aria-controls="tab-panel-help-navigation">
+									Navigation								</a>
+							</li>
+							
+							<li id="tab-link-help-layout">
+								<a href="#tab-panel-help-layout" aria-controls="tab-panel-help-layout">
+									Layout								</a>
+							</li>
+							
+							<li id="tab-link-help-content">
+								<a href="#tab-panel-help-content" aria-controls="tab-panel-help-content">
+									Content								</a>
+							</li>
+													</ul>
+					</div>
+
+										<div class="contextual-help-sidebar">
+						<p><strong>For more information:</strong></p><p><a href="https://wordpress.org/support/article/dashboard-screen/">Documentation on Dashboard</a></p><p><a href="https://wordpress.org/support/">Support</a></p>					</div>
+					
+					<div class="contextual-help-tabs-wrap">
+						
+							<div id="tab-panel-overview" class="help-tab-content active">
+								<p>Welcome to your WordPress Dashboard! This is the screen you will see when you log in to your site, and gives you access to all the site management features of WordPress. You can get help for any screen by clicking the Help tab above the screen title.</p>							</div>
+							
+							<div id="tab-panel-help-navigation" class="help-tab-content">
+								<p>The left-hand navigation menu provides links to all of the WordPress administration screens, with submenu items displayed on hover. You can minimize this menu to a narrow icon strip by clicking on the Collapse Menu arrow at the bottom.</p><p>Links in the Toolbar at the top of the screen connect your dashboard and the front end of your site, and provide access to your profile and helpful WordPress information.</p>							</div>
+							
+							<div id="tab-panel-help-layout" class="help-tab-content">
+								<p>You can use the following controls to arrange your Dashboard screen to suit your workflow. This is true on most other administration screens as well.</p><p><strong>Screen Options</strong> — Use the Screen Options tab to choose which Dashboard boxes to show.</p><p><strong>Drag and Drop</strong> — To rearrange the boxes, drag and drop by clicking on the title bar of the selected box and releasing when you see a gray dotted-line rectangle appear in the location you want to place the box.</p><p><strong>Box Controls</strong> — Click the title bar of the box to expand or collapse it. Some boxes added by plugins may have configurable content, and will show a “Configure” link in the title bar if you hover over it.</p>							</div>
+							
+							<div id="tab-panel-help-content" class="help-tab-content">
+								<p>The boxes on your Dashboard screen are:</p><p><strong>At A Glance</strong> — Displays a summary of the content on your site and identifies which theme and version of WordPress you are using.</p><p><strong>Activity</strong> — Shows the upcoming scheduled posts, recently published posts, and the most recent comments on your posts and allows you to moderate them.</p><p><strong>Quick Draft</strong> — Allows you to create a new post and save it as a draft. Also displays links to the 3 most recent draft posts you've started.</p><p><strong>WordPress Events and News</strong> — Upcoming events near you as well as the latest news from the official WordPress project and the <a href="https://planet.wordpress.org/">WordPress Planet</a>.</p><p><strong>Welcome</strong> — Shows links for some of the most common tasks when setting up a new site.</p>							</div>
+												</div>
+				</div>
+			</div>
+		<div id="screen-options-wrap" class="hidden" tabindex="-1" aria-label="Screen Options Tab">
+<form id="adv-settings" method="post">
+		<fieldset class="metabox-prefs">
+		<legend>Boxes</legend>
+		<label for="dashboard_site_health-hide"><input class="hide-postbox-tog" name="dashboard_site_health-hide" type="checkbox" id="dashboard_site_health-hide" value="dashboard_site_health" checked>Site Health Status</label><label for="dashboard_right_now-hide"><input class="hide-postbox-tog" name="dashboard_right_now-hide" type="checkbox" id="dashboard_right_now-hide" value="dashboard_right_now" checked>At a Glance</label><label for="dashboard_activity-hide"><input class="hide-postbox-tog" name="dashboard_activity-hide" type="checkbox" id="dashboard_activity-hide" value="dashboard_activity" checked>Activity</label><label for="dashboard_quick_press-hide"><input class="hide-postbox-tog" name="dashboard_quick_press-hide" type="checkbox" id="dashboard_quick_press-hide" value="dashboard_quick_press" checked><span class="hide-if-no-js">Quick Draft</span> <span class="hide-if-js">Your Recent Drafts</span></label><label for="dashboard_primary-hide"><input class="hide-postbox-tog" name="dashboard_primary-hide" type="checkbox" id="dashboard_primary-hide" value="dashboard_primary" checked>WordPress Events and News</label><label for="wp_welcome_panel-hide"><input type="checkbox" id="wp_welcome_panel-hide" checked>Welcome</label>
+		</fieldset>
+		
+<input type="hidden" id="screenoptionnonce" name="screenoptionnonce" value="76264be959">
+</form>
+</div>		</div>
+				<div id="screen-meta-links">
+					<div id="screen-options-link-wrap" class="hide-if-no-js screen-meta-toggle">
+			<button type="button" id="show-settings-link" class="button show-settings" aria-controls="screen-options-wrap" aria-expanded="false">Screen Options</button>
+			</div>
+						<div id="contextual-help-link-wrap" class="hide-if-no-js screen-meta-toggle">
+			<button type="button" id="contextual-help-link" class="button show-settings" aria-controls="contextual-help-wrap" aria-expanded="false">Help</button>
+			</div>
+				</div>
+		<div class="update-nag notice notice-warning inline"><a href="https://wordpress.org/support/wordpress-version/version-5-6/">WordPress 5.6</a> is available! <a href="https://ahmedtariq11.github.io/wp-admin/update-core.php" aria-label="Please update WordPress now">Please update now</a>.</div><div class="notice notice-warning vc_settings-custom-design-notice"><p><strong>Important notice</strong>: You have an outdated version of WPBakery Page Builder Design Options. It is required to review and save it.</p><p><a href="https://ahmedtariq11.github.io/wp-admin/admin.php?page=vc-color" class="button button-primary button-large vc_button-settings-less" id="vc_less-save-button" style="vertical-align: baseline;">Open Design Options</a></p></div>
+<div class="wrap">
+	<h1>Dashboard</h1>
+
+	
+
+	<div id="welcome-panel" class="welcome-panel">
+		<input type="hidden" id="welcomepanelnonce" name="welcomepanelnonce" value="24ae2208bb">		<a class="welcome-panel-close" href="https://ahmedtariq11.github.io/wp-admin/?welcome=0" aria-label="Dismiss the welcome panel">Dismiss</a>
+			<div class="welcome-panel-content">
+	<h2>Welcome to WordPress!</h2>
+	<p class="about-description">We’ve assembled some links to get you started:</p>
+	<div class="welcome-panel-column-container">
+	<div class="welcome-panel-column">
+					<h3>Get Started</h3>
+			<a class="button button-primary button-hero load-customize hide-if-no-customize" href="https://ahmedtariq11.github.io/wp-admin/customize.php">Customize Your Site</a>
+				<a class="button button-primary button-hero hide-if-customize" href="https://ahmedtariq11.github.io/wp-admin/themes.php">Customize Your Site</a>
+								<p class="hide-if-no-customize">
+				or, <a href="https://ahmedtariq11.github.io/wp-admin/customize.php?autofocus%5Bpanel%5D=themes">change your theme completely</a>			</p>
+			</div>
+	<div class="welcome-panel-column">
+		<h3>Next Steps</h3>
+		<ul>
+					<li><a href="https://ahmedtariq11.github.io/wp-admin/post.php?post=5&amp;action=edit" class="welcome-icon welcome-edit-page">Edit your front page</a></li>
+			<li><a href="https://ahmedtariq11.github.io/wp-admin/post-new.php?post_type=page" class="welcome-icon welcome-add-page">Add additional pages</a></li>
+					<li><a href="https://ahmedtariq11.github.io/" class="welcome-icon welcome-view-site">View your site</a></li>
+		</ul>
+	</div>
+	<div class="welcome-panel-column welcome-panel-last">
+		<h3>More Actions</h3>
+		<ul>
+					<li><a href="https://ahmedtariq11.github.io/wp-admin/widgets.php" class="welcome-icon welcome-widgets">Manage widgets</a></li>
+							<li><a href="https://ahmedtariq11.github.io/wp-admin/nav-menus.php" class="welcome-icon welcome-menus">Manage menus</a></li>
+							<li><a href="https://ahmedtariq11.github.io/wp-admin/options-discussion.php" class="welcome-icon welcome-comments">Turn comments on or off</a></li>
+					<li><a href="https://wordpress.org/support/article/first-steps-with-wordpress/" class="welcome-icon welcome-learn-more">Learn more about getting started</a></li>
+		</ul>
+	</div>
+	</div>
+	</div>
+		</div>
+
+	<div id="dashboard-widgets-wrap">
+	<div id="dashboard-widgets" class="metabox-holder">
+	<div id="postbox-container-1" class="postbox-container">
+	<div id="normal-sortables" class="meta-box-sortables"><div id="dashboard_site_health" class="postbox ">
+<div class="postbox-header"><h2 class="hndle">Site Health Status</h2>
+<div class="handle-actions hide-if-no-js"><button type="button" class="handle-order-higher" aria-disabled="false" aria-describedby="dashboard_site_health-handle-order-higher-description"><span class="screen-reader-text">Move up</span><span class="order-higher-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_site_health-handle-order-higher-description">Move Site Health Status box up</span><button type="button" class="handle-order-lower" aria-disabled="false" aria-describedby="dashboard_site_health-handle-order-lower-description"><span class="screen-reader-text">Move down</span><span class="order-lower-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_site_health-handle-order-lower-description">Move Site Health Status box down</span><button type="button" class="handlediv" aria-expanded="true"><span class="screen-reader-text">Toggle panel: Site Health Status</span><span class="toggle-indicator" aria-hidden="true"></span></button></div></div><div class="inside">
+	<div class="health-check-title-section site-health-progress-wrapper loading hide-if-no-js">
+		<div class="site-health-progress">
+			<svg role="img" aria-hidden="true" focusable="false" width="100%" height="100%" viewbox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				<circle r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+				<circle id="bar" r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+			</svg>
+		</div>
+		<div class="site-health-progress-label">
+							Results are still loading…					</div>
+	</div>
+
+			<p>
+							Your site’s health is looking good, but there are still some things you can do to improve its performance and security.					</p>
+	
+			<p>
+			Take a look at the <strong>8 items</strong> on the <a href="https://ahmedtariq11.github.io/wp-admin/site-health.php">Site Health screen</a>.		</p>
+	
+	</div>
+</div>
+<div id="dashboard_right_now" class="postbox ">
+<div class="postbox-header"><h2 class="hndle">At a Glance</h2>
+<div class="handle-actions hide-if-no-js"><button type="button" class="handle-order-higher" aria-disabled="false" aria-describedby="dashboard_right_now-handle-order-higher-description"><span class="screen-reader-text">Move up</span><span class="order-higher-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_right_now-handle-order-higher-description">Move At a Glance box up</span><button type="button" class="handle-order-lower" aria-disabled="false" aria-describedby="dashboard_right_now-handle-order-lower-description"><span class="screen-reader-text">Move down</span><span class="order-lower-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_right_now-handle-order-lower-description">Move At a Glance box down</span><button type="button" class="handlediv" aria-expanded="true"><span class="screen-reader-text">Toggle panel: At a Glance</span><span class="toggle-indicator" aria-hidden="true"></span></button></div></div><div class="inside">
+	<div class="main">
+	<ul>
+	<li class="post-count"><a href="https://ahmedtariq11.github.io/wp-admin/edit.php?post_type=post">4 Posts</a></li><li class="page-count"><a href="https://ahmedtariq11.github.io/wp-admin/edit.php?post_type=page">6 Pages</a></li>		<li class="comment-count"><a href="https://ahmedtariq11.github.io/wp-admin/edit-comments.php">1 Comment</a></li>
+				<li class="comment-mod-count
+		 hidden		"><a href="https://ahmedtariq11.github.io/wp-admin/edit-comments.php?comment_status=moderated" class="comments-in-moderation-text">0 Comments in moderation</a></li>
+			</ul>
+	<p id="wp-version-message"><a href="https://ahmedtariq11.github.io/wp-admin/update-core.php" class="button" aria-describedby="wp-version">Update to 5.6</a> <span id="wp-version">WordPress 5.5.3 running <a href="https://ahmedtariq11.github.io/wp-admin/themes.php">Consult</a> theme.</span></p>	</div>
+	</div>
+</div>
+<div id="dashboard_activity" class="postbox ">
+<div class="postbox-header"><h2 class="hndle">Activity</h2>
+<div class="handle-actions hide-if-no-js"><button type="button" class="handle-order-higher" aria-disabled="false" aria-describedby="dashboard_activity-handle-order-higher-description"><span class="screen-reader-text">Move up</span><span class="order-higher-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_activity-handle-order-higher-description">Move Activity box up</span><button type="button" class="handle-order-lower" aria-disabled="false" aria-describedby="dashboard_activity-handle-order-lower-description"><span class="screen-reader-text">Move down</span><span class="order-lower-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_activity-handle-order-lower-description">Move Activity box down</span><button type="button" class="handlediv" aria-expanded="true"><span class="screen-reader-text">Toggle panel: Activity</span><span class="toggle-indicator" aria-hidden="true"></span></button></div></div><div class="inside">
+<div id="activity-widget"><div id="published-posts" class="activity-block"><h3>Recently Published</h3><ul><li><span>Oct 20th, 4:08 pm</span> <a href="https://ahmedtariq11.github.io/wp-admin/post.php?post=63&amp;action=edit" aria-label="Edit “How to Create a Custom Element for Visual Composer”">How to Create a Custom Element for Visual Composer</a></li><li><span>Oct 20th, 11:56 am</span> <a href="https://ahmedtariq11.github.io/wp-admin/post.php?post=51&amp;action=edit" aria-label="Edit “Make your productive teams”">Make your productive teams</a></li><li><span>Oct 20th, 11:55 am</span> <a href="https://ahmedtariq11.github.io/wp-admin/post.php?post=49&amp;action=edit" aria-label="Edit “Make your productive teams”">Make your productive teams</a></li><li><span>Oct 20th, 8:58 am</span> <a href="https://ahmedtariq11.github.io/wp-admin/post.php?post=1&amp;action=edit" aria-label="Edit “Hello world!”">Hello world!</a></li></ul></div><div id="latest-comments" class="activity-block"><h3>Recent Comments</h3><ul id="the-comment-list" data-wp-lists="list:comment">
+		<li id="comment-1" class="comment even thread-even depth-1 comment-item approved">
+
+			<img alt="" src="https://1.gravatar.com/avatar/d7a973c7dab26985da5f961be7b74480?s=50&amp;d=mm&amp;r=g" srcset="https://1.gravatar.com/avatar/d7a973c7dab26985da5f961be7b74480?s=100&amp;d=mm&amp;r=g 2x" class="avatar avatar-50 photo" height="50" width="50" loading="lazy">
+			
+			<div class="dashboard-comment-wrap has-row-actions  has-avatar">
+			<p class="comment-meta">
+				From <cite class="comment-author"><a href="https://wordpress.org/" rel="external nofollow ugc" class="url">A WordPress Commenter</a></cite> on <a href="https://ahmedtariq11.github.io/2020/10/20/hello-world/">Hello world!</a> <span class="approve">[Pending]</span>			</p>
+
+							<blockquote><p>Hi, this is a comment. To get started with moderating, editing, and deleting comments, please visit the Comments screen in…</p></blockquote>
+						<p class="row-actions"><span class="approve"><a href="https://ahmedtariq11.github.io/wp-admin/comment.php?action=approvecomment&amp;p=1&amp;c=1&amp;_wpnonce=1dd90a7082" data-wp-lists="dim:the-comment-list:comment-1:unapproved:e7e7d3:e7e7d3:new=approved" class="vim-a aria-button-if-js" aria-label="Approve this comment">Approve</a></span><span class="unapprove"><a href="https://ahmedtariq11.github.io/wp-admin/comment.php?action=unapprovecomment&amp;p=1&amp;c=1&amp;_wpnonce=1dd90a7082" data-wp-lists="dim:the-comment-list:comment-1:unapproved:e7e7d3:e7e7d3:new=unapproved" class="vim-u aria-button-if-js" aria-label="Unapprove this comment">Unapprove</a></span><span class="reply hide-if-no-js"> | <button type="button" onclick="window.commentReply &amp;&amp; commentReply.open('1','1');" class="vim-r button-link hide-if-no-js" aria-label="Reply to this comment">Reply</button></span><span class="edit"> | <a href="https://ahmedtariq11.github.io/wp-admin/comment.php?action=editcomment&amp;c=1" aria-label="Edit this comment">Edit</a></span><span class="spam"> | <a href="https://ahmedtariq11.github.io/wp-admin/comment.php?action=spamcomment&amp;p=1&amp;c=1&amp;_wpnonce=01bda362af" data-wp-lists="delete:the-comment-list:comment-1::spam=1" class="vim-s vim-destructive aria-button-if-js" aria-label="Mark this comment as spam">Spam</a></span><span class="trash"> | <a href="https://ahmedtariq11.github.io/wp-admin/comment.php?action=trashcomment&amp;p=1&amp;c=1&amp;_wpnonce=01bda362af" data-wp-lists="delete:the-comment-list:comment-1::trash=1" class="delete vim-d vim-destructive aria-button-if-js" aria-label="Move this comment to the Trash">Trash</a></span><span class="view"> | <a class="comment-link" href="https://ahmedtariq11.github.io/2020/10/20/hello-world/#comment-1" aria-label="View this comment">View</a></span></p>
+						</div>
+		</li>
+	</ul><h3 class="screen-reader-text">View more comments</h3><ul class="subsubsub">
+	<li class="all"><a href="https://ahmedtariq11.github.io/wp-admin/edit-comments.php?comment_status=all">All <span class="count">(<span class="all-count">1</span>)</span></a> |</li>
+	<li class="mine"><a href="https://ahmedtariq11.github.io/wp-admin/edit-comments.php?comment_status=mine&amp;user_id=1">Mine <span class="count">(<span class="mine-count">0</span>)</span></a> |</li>
+	<li class="moderated"><a href="https://ahmedtariq11.github.io/wp-admin/edit-comments.php?comment_status=moderated">Pending <span class="count">(<span class="pending-count">0</span>)</span></a> |</li>
+	<li class="approved"><a href="https://ahmedtariq11.github.io/wp-admin/edit-comments.php?comment_status=approved">Approved <span class="count">(<span class="approved-count">1</span>)</span></a> |</li>
+	<li class="spam"><a href="https://ahmedtariq11.github.io/wp-admin/edit-comments.php?comment_status=spam">Spam <span class="count">(<span class="spam-count">0</span>)</span></a> |</li>
+	<li class="trash"><a href="https://ahmedtariq11.github.io/wp-admin/edit-comments.php?comment_status=trash">Trash <span class="count">(<span class="trash-count">0</span>)</span></a></li>
+</ul><form method="get">
+	<div id="com-reply" style="display:none;"><div id="replyrow" style="display:none;">
+	<fieldset class="comment-reply">
+	<legend>
+		<span class="hidden" id="editlegend">Edit Comment</span>
+		<span class="hidden" id="replyhead">Reply to Comment</span>
+		<span class="hidden" id="addhead">Add new Comment</span>
+	</legend>
+
+	<div id="replycontainer">
+	<label for="replycontent" class="screen-reader-text">Comment</label>
+	<div id="wp-replycontent-wrap" class="wp-core-ui wp-editor-wrap html-active"><link rel="stylesheet" id="editor-buttons-css" href="https://ahmedtariq11.github.io/wp-includes/css/editor.min.css?ver=5.5.3" media="all">
+<div id="wp-replycontent-editor-container" class="wp-editor-container"><div id="qt_replycontent_toolbar" class="quicktags-toolbar"></div><textarea class="wp-editor-area" rows="20" cols="40" name="replycontent" id="replycontent"></textarea></div>
+</div>
+
+	</div>
+
+	<div id="edithead" style="display:none;">
+		<div class="inside">
+		<label for="author-name">Name</label>
+		<input type="text" name="newcomment_author" size="50" value="" id="author-name">
+		</div>
+
+		<div class="inside">
+		<label for="author-email">Email</label>
+		<input type="text" name="newcomment_author_email" size="50" value="" id="author-email">
+		</div>
+
+		<div class="inside">
+		<label for="author-url">URL</label>
+		<input type="text" id="author-url" name="newcomment_author_url" class="code" size="103" value="">
+		</div>
+	</div>
+
+	<div id="replysubmit" class="submit">
+		<p class="reply-submit-buttons">
+			<button type="button" class="save button button-primary">
+				<span id="addbtn" style="display: none;">Add Comment</span>
+				<span id="savebtn" style="display: none;">Update Comment</span>
+				<span id="replybtn" style="display: none;">Submit Reply</span>
+			</button>
+			<button type="button" class="cancel button">Cancel</button>
+			<span class="waiting spinner"></span>
+		</p>
+		<div class="notice notice-error notice-alt inline hidden">
+			<p class="error"></p>
+		</div>
+	</div>
+
+	<input type="hidden" name="action" id="action" value="">
+	<input type="hidden" name="comment_ID" id="comment_ID" value="">
+	<input type="hidden" name="comment_post_ID" id="comment_post_ID" value="">
+	<input type="hidden" name="status" id="status" value="">
+	<input type="hidden" name="position" id="position" value="-1">
+	<input type="hidden" name="checkbox" id="checkbox" value="0">
+	<input type="hidden" name="mode" id="mode" value="dashboard">
+	<input type="hidden" id="_ajax_nonce-replyto-comment" name="_ajax_nonce-replyto-comment" value="b876b25b6e"><input type="hidden" id="_wp_unfiltered_html_comment" name="_wp_unfiltered_html_comment" value="5fbfd4053d">	</fieldset>
+	</div></div>
+	</form>
+	<div class="hidden" id="trash-undo-holder">
+	<div class="trash-undo-inside">
+		Comment by <strong></strong> moved to the Trash.		<span class="undo untrash"><a href="#">Undo</a></span>
+	</div>
+</div>
+<div class="hidden" id="spam-undo-holder">
+	<div class="spam-undo-inside">
+		Comment by <strong></strong> marked as spam.		<span class="undo unspam"><a href="#">Undo</a></span>
+	</div>
+</div>
+	</div></div></div>
+</div>
+</div>	</div>
+	<div id="postbox-container-2" class="postbox-container">
+	<div id="side-sortables" class="meta-box-sortables"><div id="dashboard_quick_press" class="postbox ">
+<div class="postbox-header"><h2 class="hndle"><span class="hide-if-no-js">Quick Draft</span> <span class="hide-if-js">Your Recent Drafts</span></h2>
+<div class="handle-actions hide-if-no-js"><button type="button" class="handle-order-higher" aria-disabled="false" aria-describedby="dashboard_quick_press-handle-order-higher-description"><span class="screen-reader-text">Move up</span><span class="order-higher-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_quick_press-handle-order-higher-description">Move <span class="hide-if-no-js">Quick Draft</span> <span class="hide-if-js">Your Recent Drafts</span> box up</span><button type="button" class="handle-order-lower" aria-disabled="false" aria-describedby="dashboard_quick_press-handle-order-lower-description"><span class="screen-reader-text">Move down</span><span class="order-lower-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_quick_press-handle-order-lower-description">Move <span class="hide-if-no-js">Quick Draft</span> <span class="hide-if-js">Your Recent Drafts</span> box down</span><button type="button" class="handlediv" aria-expanded="true"><span class="screen-reader-text">Toggle panel: <span class="hide-if-no-js">Quick Draft</span> <span class="hide-if-js">Your Recent Drafts</span></span><span class="toggle-indicator" aria-hidden="true"></span></button></div></div><div class="inside">
+
+	<form name="post" action="https://ahmedtariq11.github.io/wp-admin/post.php" method="post" id="quick-press" class="initial-form hide-if-no-js">
+
+		
+		<div class="input-text-wrap" id="title-wrap">
+			<label for="title">
+				Title			</label>
+			<input type="text" name="post_title" id="title" autocomplete="off">
+		</div>
+
+		<div class="textarea-wrap" id="description-wrap">
+			<label for="content">Content</label>
+			<textarea name="content" id="content" placeholder="What’s on your mind?" class="mceEditor" rows="3" cols="15" autocomplete="off"></textarea>
+		</div>
+
+		<p class="submit">
+			<input type="hidden" name="action" id="quickpost-action" value="post-quickdraft-save">
+			<input type="hidden" name="post_ID" value="99">
+			<input type="hidden" name="post_type" value="post">
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="f76dc9a1c5"><input type="hidden" name="_wp_http_referer" value="/consultantthemedevelopmentwithwpbakery/wp-admin/">			<input type="submit" name="save" id="save-post" class="button button-primary" value="Save Draft">			<br class="clear">
+		</p>
+
+	</form>
+	</div>
+</div>
+<div id="dashboard_primary" class="postbox ">
+<div class="postbox-header"><h2 class="hndle">WordPress Events and News</h2>
+<div class="handle-actions hide-if-no-js"><button type="button" class="handle-order-higher" aria-disabled="false" aria-describedby="dashboard_primary-handle-order-higher-description"><span class="screen-reader-text">Move up</span><span class="order-higher-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_primary-handle-order-higher-description">Move WordPress Events and News box up</span><button type="button" class="handle-order-lower" aria-disabled="false" aria-describedby="dashboard_primary-handle-order-lower-description"><span class="screen-reader-text">Move down</span><span class="order-lower-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_primary-handle-order-lower-description">Move WordPress Events and News box down</span><button type="button" class="handlediv" aria-expanded="true"><span class="screen-reader-text">Toggle panel: WordPress Events and News</span><span class="toggle-indicator" aria-hidden="true"></span></button></div></div><div class="inside">
+
+	<div class="community-events-errors notice notice-error inline hide-if-js">
+		<p class="hide-if-js">
+			This widget requires JavaScript.		</p>
+
+		<p class="community-events-error-occurred" aria-hidden="true">
+			An error occurred. Please try again.		</p>
+
+		<p class="community-events-could-not-locate" aria-hidden="true"></p>
+	</div>
+
+	<div class="community-events-loading hide-if-no-js">
+		Loading…	</div>
+
+		<div id="community-events" class="community-events" aria-hidden="true">
+		<div class="activity-block">
+			<p>
+				<span id="community-events-location-message"></span>
+
+				<button class="button-link community-events-toggle-location" aria-label="Edit city" aria-expanded="false">
+					<span class="dashicons dashicons-edit"></span>
+				</button>
+			</p>
+
+			<form class="community-events-form" aria-hidden="true" action="https://ahmedtariq11.github.io/wp-admin/admin-ajax.php" method="post">
+				<label for="community-events-location">
+					City:				</label>
+								<input id="community-events-location" class="regular-text" type="text" name="community-events-location" placeholder="Cincinnati">
+
+				<input type="submit" name="community-events-submit" id="community-events-submit" class="button" value="Submit">
+				<button class="community-events-cancel button-link" type="button" aria-expanded="false">
+					Cancel				</button>
+
+				<span class="spinner"></span>
+			</form>
+		</div>
+
+		<ul class="community-events-results activity-block last"></ul>
+	</div>
+
+	
+	<div class="wordpress-news hide-if-no-js">
+		<div class="rss-widget"><ul><li><a class="rsswidget" href="https://wordpress.org/news/2020/12/introducing-learn-wordpress/">Introducing Learn WordPress</a></li></ul></div><div class="rss-widget"><ul><li><a class="rsswidget" href="https://wptavern.com/state-of-the-word-2020-wordpress-moves-toward-full-site-editing?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=state-of-the-word-2020-wordpress-moves-toward-full-site-editing">WPTavern: State of the Word 2020: WordPress Moves Toward Full Site Editing</a></li><li><a class="rsswidget" href="https://wptavern.com/contact-form-7-version-5-3-2-patches-critical-vulnerability-immediate-update-recommended?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=contact-form-7-version-5-3-2-patches-critical-vulnerability-immediate-update-recommended">WPTavern: Contact Form 7 Version 5.3.2 Patches Critical Vulnerability, Immediate  Update Recommended</a></li><li><a class="rsswidget" href="https://wptavern.com/help-steer-the-future-of-wordpress-via-the-fse-outreach-program?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=help-steer-the-future-of-wordpress-via-the-fse-outreach-program">WPTavern: Help Steer the Future of WordPress via the FSE Outreach Program</a></li></ul></div>	</div>
+
+	<p class="community-events-footer">
+		<a href="https://make.wordpress.org/community/meetups-landing-page" target="_blank">Meetups <span class="screen-reader-text">(opens in a new tab)</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a>
+		|
+
+		<a href="https://central.wordcamp.org/schedule/" target="_blank">WordCamps <span class="screen-reader-text">(opens in a new tab)</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a>
+		|
+
+		<a href="https://wordpress.org/news/" target="_blank">News <span class="screen-reader-text">(opens in a new tab)</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a>	</p>
+
+	</div>
+</div>
+</div>	</div>
+	<div id="postbox-container-3" class="postbox-container">
+	<div id="column3-sortables" class="meta-box-sortables"></div>	</div>
+	<div id="postbox-container-4" class="postbox-container">
+	<div id="column4-sortables" class="meta-box-sortables"></div>	</div>
+</div>
+
+	<input type="hidden" id="closedpostboxesnonce" name="closedpostboxesnonce" value="b10927df74"><input type="hidden" id="meta-box-order-nonce" name="meta-box-order-nonce" value="1a546eb7b7">	</div>
+
+</div>
+
+
+	<script id="tmpl-community-events-attend-event-near" type="text/template">
+		Attend an upcoming event near <strong>{{ data.location.description }}.	</script>
+
+	<script id="tmpl-community-events-could-not-locate" type="text/template">
+		We couldn&#8217;t locate <em>{{data.unknownCity}}. Please try another nearby city. For example: Kansas City; Springfield; Portland.	</script>
+
+	<script id="tmpl-community-events-event-list" type="text/template">
+		<# _.each( data.events, function( event ) { #>
+			<li class="event event-{{ event.type }} wp-clearfix">
+				<div class="event-info">
+					<div class="dashicons event-icon" aria-hidden="true"></script></div>
+					<div class="event-info-inner">
+						<a class="event-title" href="%7B%7B%20event.url%20%7D%7D">{{ event.title }}</a>
+						<span class="event-city">{{ event.location.location }}</span>
+					</div>
+				</div>
+
+				<div class="event-date-time">
+					<span class="event-date">{{ event.user_formatted_date }}</span>
+					
+						<span class="event-time">
+							{{ event.user_formatted_time }} {{ event.timeZoneAbbreviation }}
+						</span>
+					
+				</div>
+			
+		
+	
+
+	<script id="tmpl-community-events-no-upcoming-events" type="text/template">
+		<li class="event-none">
+			<# if ( data.location.description ) { #>
+				There aren&#8217;t any events scheduled near {{ data.location.description }} at the moment. Would you like to <a href="https://make.wordpress.org/community/handbook/meetup-organizer/welcome/">organize a WordPress event?
+			<# } else { #>
+				There aren&#8217;t any events scheduled near you at the moment. Would you like to <a href="https://make.wordpress.org/community/handbook/meetup-organizer/welcome/">organize a WordPress event?			<# } #>
+		
+	</script>
+	
+<div class="clear"></div></div>
+<div class="clear"></div></div>
+<div class="clear"></div>
+
+<div id="wpfooter" role="contentinfo">
+		<p id="footer-left" class="alignleft">
+		<span id="footer-thankyou">Thank you for creating with <a href="https://wordpress.org/">WordPress</a>.</span>	</p>
+	<p id="footer-upgrade" class="alignright">
+		<strong><a href="https://ahmedtariq11.github.io/wp-admin/update-core.php">Get Version 5.6</a></strong>	</p>
+	<div class="clear"></div>
+</div>
+<div id="cs-icon-dialog" class="cs-dialog" title="Add Icon"><div class="cs-dialog-header cs-text-center"><input type="text" placeholder="Search a Icon..." class="cs-icon-search"></div><div class="cs-dialog-load"><div class="cs-icon-loading">Loading...</div></div></div><script type="text/html" id="vcl-loop-frame">
+    <div class="vc_row">
+        <div class="vc_col-sm-12">
+            <# if(vc.loop_field_not_hidden('post_type', loop)) { #>
+                <label class="wpb_element_label">Post types
+
+                <div class="post-types-list">
+                    {{{ vc.loop_partial('checkboxes', 'post_type', loop) }}}
+                
+                <span class="description clear">Select post types to populate posts from. Note: If no post type is selected, WordPress will use default &quot;Post&quot; value.
+                <# } #>
+        
+    
+    <div class="vc_row">
+        <# if(vc.loop_field_not_hidden('size', loop)) { #>
+            <div class="vc_col-sm-4">
+                <label class="wpb_element_label">Post count
+                {{{ vc.loop_partial('text-input', 'size', loop) }}}
+                <span class="description clear">How many teasers to show? Enter number or word &quot;All&quot;.
+            
+            <# } #>
+                <# if(vc.loop_field_not_hidden('order_by', loop)) { #>
+                    <div class="vc_col-sm-4">
+                        <label class="wpb_element_label">Order by
+                        {{{ vc.loop_partial('dropdown', 'order_by', loop) }}}
+                        <span class="description clear">Select how to sort retrieved posts. More at <a href="https://codex.wordpress.org/Class_Reference/WP_Query#Order_.26_Orderby_Parameters" target="_blank">
+                            WordPress codex page.
+                    
+                    <# } #>
+                        <# if(vc.loop_field_not_hidden('order', loop)) { #>
+                            <div class="vc_col-sm-4">
+                                <label class="wpb_element_label">Sort order
+                                {{{ vc.loop_partial('dropdown', 'order', loop) }}}
+                                <span class="description clear">Designates the ascending or descending order.
+                            
+                            <# } #>
+    
+
+    <# if(vc.loop_field_not_hidden('categories', loop)) { #>
+        <div class="vc_row">
+            <div class="vc_col-sm-12">
+                <div class="vc_suggest-field" data-block="suggestion">
+                    <label class="wpb_element_label">Categories
+                    {{{ vc.loop_partial('autosuggest', 'categories', loop) }}}
+                    <span class="description clear">Filter output by posts categories, enter category names here.
+                
+            
+        
+        <# } #>
+            <# if(vc.loop_field_not_hidden('tags', loop)) { #>
+                <div class="vc_row">
+                    <div class="vc_col-sm-12">
+                        <div class="vc_suggest-field" data-block="suggestion">
+                            <label class="wpb_element_label">Tags
+                            {{{ vc.loop_partial('autosuggest', 'tags', loop) }}}
+                            <span class="description clear">Filter output by posts tags, enter tag names here.
+                        
+                    
+                
+                <# } #>
+                    <# if(vc.loop_field_not_hidden('tax_query', loop)) { #>
+                        <div class="vc_row">
+                            <div class="vc_col-sm-12">
+                                <div class="vc_suggest-field" data-block="suggestion">
+                                    <label class="wpb_element_label">Taxonomies
+                                    {{{ vc.loop_partial('autosuggest', 'tax_query', loop) }}}
+                                    <span class="description clear">Filter output by custom taxonomies categories, enter category names here.
+                                
+                            
+                        
+                        <# } #>
+                            <# if(vc.loop_field_not_hidden('by_id', loop)) { #>
+                                <div class="vc_row">
+                                    <div class="vc_col-sm-12">
+                                        <div class="vc_suggest-field" data-block="suggestion">
+                                            <label class="wpb_element_label">Individual Posts/Pages/Custom Post Types
+                                            {{{ vc.loop_partial('autosuggest', 'by_id', loop) }}}
+                                            <span class="description clear">Only entered posts/pages will be included in the output. Note: Works in conjunction with selected &quot;Post types&quot;.
+                                        
+                                    
+                                
+                                <# } #>
+                                    <# if(vc.loop_field_not_hidden('authors', loop)) { #>
+                                        <div class="vc_row">
+                                            <div class="vc_col-sm-12">
+                                                <div class="vc_suggest-field" data-block="suggestion">
+                                                    <label class="wpb_element_label">Author
+                                                    {{{ vc.loop_partial('autosuggest', 'authors', loop) }}}
+                                                    <span class="description clear">Filter by author name.
+                                                
+                                            
+                                        
+                                        <# } #>
+</script>
+<script type="text/html" id="_vcl-text-input">
+    <#
+            var is_locked = vc.is_locked(data),
+            disabled = is_locked  ? ' disabled="true"' : '',
+            value = _.isObject(data) && !_.isUndefined(data.value) ? data.value : '';
+            #>
+        <input type="text" name="{{ name }}" value="{{ value }}" class="vc_{{ name }}_field" {{ disabled }}>
+</script>
+<script type="text/html" id="_vcl-dropdown">
+    <#
+            var is_locked = vc.is_locked(data),
+            disabled = is_locked  ? ' disabled="true"' : '';
+            #>
+        <select name="{{ name }}" class="vc_dropdown" {{ disabled }}>
+            <option value="">
+            <# if(_.isObject(data) && _.isArray(data.options)) { #>
+                <#
+                        _.each(data.options, function(opt) {
+                        var value, label;
+                        if(_.isArray(opt)) {
+                        value = opt[0];
+                        label = opt[1];
+                        } else {
+                        value = opt;
+                        label = opt;
+                        }#>
+                    <option value="{{ value }}"
+                            {{ data.value===value ?
+                    ' selected="true"' : '' }}>{{ label }}
+                    <#
+                            });
+                            #>
+                        <# } #>
+        
+</script>
+<script type="text/html" id="_vcl-checkboxes">
+    <#
+            var is_locked = vc.is_locked(data);
+            #>
+        <input type="hidden" name="{{ name }}" value="{{ data.value }}" data-name="{{ name }}">
+        <# if(_.isObject(data) && _.isArray(data.options)) {
+                _.each(data.options, function(opt) {
+                var value, label, params;
+                if(_.isArray(opt)) {
+                value = opt[0];
+                label = opt[1];
+                } else {
+                value = opt;
+                label = opt;
+                }
+                params = _.indexOf(data.value, value) >=0 ? ' checked="true"' : '';
+            if(!_.isEmpty(params) && is_locked) params += ' disabled="true"';
+            #>
+            <label><input type="checkbox" data-input="{{ name }}" value="{{ value }}" {{ params }}/> {{ label }}
+            <#
+                    });
+                    } #>
+</script>
+<script type="text/html" id="_vcl-autosuggest">
+    <# limit_param = _.isObject(settings) && !_.isUndefined(settings.limit) ? ' data-limit="' + settings.limit + '"' : ''; #>
+        <input type="hidden" data-suggest-prefill="{{ name }}"
+               value="{{ _.isObject(data) && _.isArray(data.options) ? window.encodeURIComponent(JSON.stringify(data.options)) : '' }}">
+        <input type="hidden" name="{{ name }}"
+               value="{{ _.isObject(data) && _.isArray(data.value) ? data.value.join(',') : '' }}"
+               data-suggest-value="{{ name }}">
+        <input type="text" name="{{ name }}_autosuggest" value=""
+               placeholder="Click here and start typing..." class="vc_{{ name }}_field"
+               data-suggest="{{ name }}" {{ limit_param }}/>
+</script><script type="text/html" id="vcl-options-field-input">
+    <div class="vc_row">
+        <div class="vc_col-sm-12">
+            <label class="wpb_element_label">{{ label }}
+            <input type="text" name="{{ name }}" value="{{ value[0] }}">
+
+            <div class="descr"><i>{{ description }}
+        
+    
+</script>
+<script type="text/html" id="vcl-options-field-select">
+    <div class="vc_row">
+        <div class="vc_col-sm-12">
+            <label class="wpb_element_label">{{ label }}
+            <select name="{{ name }}">
+                <# _.each(options, function(option) { #>
+                    <# if(_.isArray(option)) { #>
+                        <option value="{{ option[0] }}"
+                                {{ value[0]===option[0] ?
+                        ' selected="true"' : '' }}>{{ option[1] }}
+                        <# } else { #>
+                            <option value="{{ option }}"
+                                    {{ value[0]===option ?
+                            ' selected="true"' : '' }}>{{ option }}
+                            <# } #>
+                                <# }); #>
+            
+
+            <div class="descr"><i>{{ description }}
+        
+    
+</script>
+<script type="text/html" id="vcl-options-field-checkbox">
+    <div class="vc_row">
+        <div class="vc_col-sm-12">
+            <label class="wpb_element_label">{{ label }}
+
+            <div class="vc_options-checkboxes">
+                <# _.each(options, function(option) { #>
+                    <label><input type="checkbox" name="{{ name }}" value="{{ option[0] }}" {{ _.indexOf(value,
+                                  option[0])> -1 ? ' checked="true"' : '' }}> {{ option[1] }}
+                    <# }); #>
+            
+            <div class="descr"><i>{{ description }}
+        
+    
+</script>
+<script type="text/html" id="vcl-options-field-boolean">
+    <div class="vc_row">
+        <div class="vc_col-sm-12">
+            <label class="wpb_element_label">{{ label }}
+
+            <div class="vc_options-checkbox">
+                <label><input type="checkbox" name="{{ name }}" value="true" {{ value[0] === 'true' ? ' checked="true"' :
+                    '' }}> Yes
+            
+            <div class="descr"><i>{{ description }}
+        
+    
+</script>
+<script type="text/html" id="vcl-options-field-separator">
+    <h4>{{label}}
+</script>
+		<script type="text/html" id="tmpl-media-frame">
+		<div class="media-frame-title" id="media-frame-title">
+		<h2 class="media-frame-menu-heading">Actions
+		<button type="button" class="button button-link media-frame-menu-toggle" aria-expanded="false">
+			Menu			<span class="dashicons dashicons-arrow-down" aria-hidden="true">
+		
+		<div class="media-frame-menu">
+		<div class="media-frame-tab-panel">
+			<div class="media-frame-router">
+			<div class="media-frame-content">
+		
+		<h2 class="media-frame-actions-heading screen-reader-text">
+		Selected media actions		
+		<div class="media-frame-toolbar">
+		<div class="media-frame-uploader">
+	</script>
+
+		<script type="text/html" id="tmpl-media-modal">
+		<div tabindex="0" class="media-modal wp-core-ui" role="dialog" aria-labelledby="media-frame-title">
+			<# if ( data.hasCloseButton ) { #>
+				<button type="button" class="media-modal-close"><span class="media-modal-icon"><span class="screen-reader-text">Close dialog
+			<# } #>
+			<div class="media-modal-content" role="document">
+		
+		<div class="media-modal-backdrop">
+	</script>
+
+		<script type="text/html" id="tmpl-uploader-window">
+		<div class="uploader-window-content">
+			<div class="uploader-editor-title">Drop files to upload
+		
+	</script>
+
+		<script type="text/html" id="tmpl-uploader-editor">
+		<div class="uploader-editor-content">
+			<div class="uploader-editor-title">Drop files to upload
+		
+	</script>
+
+		<script type="text/html" id="tmpl-uploader-inline">
+		<# var messageClass = data.message ? 'has-upload-message' : 'no-upload-message'; #>
+		<# if ( data.canClose ) { #>
+		<button class="close dashicons dashicons-no"><span class="screen-reader-text">Close uploader
+		<# } #>
+		<div class="uploader-inline-content {{ messageClass }}">
+		<# if ( data.message ) { #>
+			<h2 class="upload-message">{{ data.message }}
+		<# } #>
+					<div class="upload-ui">
+				<h2 class="upload-instructions drop-instructions">Drop files to upload
+				<p class="upload-instructions drop-instructions">or
+				<button type="button" class="browser button button-hero">Select Files
+			
+
+			<div class="upload-inline-status">
+
+			<div class="post-upload-ui">
+				
+				<p class="max-upload-size">
+				Maximum upload file size: 40 MB.				
+
+				<# if ( data.suggestedWidth && data.suggestedHeight ) { #>
+					<p class="suggested-dimensions">
+						Suggested image dimensions: {{data.suggestedWidth}} by {{data.suggestedHeight}} pixels.					
+				<# } #>
+
+							
+				
+	</script>
+
+		<script type="text/html" id="tmpl-media-library-view-switcher">
+		<a href="/consultantthemedevelopmentwithwpbakery/wp-admin/?mode=list" class="view-list">
+			<span class="screen-reader-text">List view
+		
+		<a href="/consultantthemedevelopmentwithwpbakery/wp-admin/?mode=grid" class="view-grid current" aria-current="page">
+			<span class="screen-reader-text">Grid view
+		
+	</script>
+
+		<script type="text/html" id="tmpl-uploader-status">
+		<h2>Uploading
+		<button type="button" class="button-link upload-dismiss-errors"><span class="screen-reader-text">Dismiss Errors
+
+		<div class="media-progress-bar"><div>
+		<div class="upload-details">
+			<span class="upload-count">
+				<span class="upload-index"> / <span class="upload-total">
+			
+			<span class="upload-detail-separator">&ndash;
+			<span class="upload-filename">
+		
+		<div class="upload-errors">
+	</script>
+
+		<script type="text/html" id="tmpl-uploader-status-error">
+		<span class="upload-error-filename">{{{ data.filename }}}
+		<span class="upload-error-message">{{ data.message }}
+	</script>
+
+		<script type="text/html" id="tmpl-edit-attachment-frame">
+		<div class="edit-media-header">
+			<button class="left dashicons"<# if ( ! data.hasPrevious ) { #> disabled<# } #>><span class="screen-reader-text">Edit previous media item
+			<button class="right dashicons"<# if ( ! data.hasNext ) { #> disabled<# } #>><span class="screen-reader-text">Edit next media item
+			<button type="button" class="media-modal-close"><span class="media-modal-icon"><span class="screen-reader-text">Close dialog
+		
+		<div class="media-frame-title">
+		<div class="media-frame-content">
+	</script>
+
+		<script type="text/html" id="tmpl-attachment-details-two-column">
+		<div class="attachment-media-view {{ data.orientation }}">
+			<h2 class="screen-reader-text">Attachment Preview
+			<div class="thumbnail thumbnail-{{ data.type }}">
+				<# if ( data.uploading ) { #>
+					<div class="media-progress-bar"><div>
+				<# } else if ( data.sizes && data.sizes.large ) { #>
+					<img class="details-image" src="{{ data.sizes.large.url }}" draggable="false" alt="" />
+				<# } else if ( data.sizes && data.sizes.full ) { #>
+					<img class="details-image" src="{{ data.sizes.full.url }}" draggable="false" alt="" />
+				<# } else if ( -1 === jQuery.inArray( data.type, [ 'audio', 'video' ] ) ) { #>
+					<img class="details-image icon" src="{{ data.icon }}" draggable="false" alt="" />
+				<# } #>
+
+				<# if ( 'audio' === data.type ) { #>
+				<div class="wp-media-wrapper">
+					<audio style="visibility: hidden" controls class="wp-audio-shortcode" width="100%" preload="none">
+						<source type="{{ data.mime }}" src="{{ data.url }}"/>
+					
+				
+				<# } else if ( 'video' === data.type ) {
+					var w_rule = '';
+					if ( data.width ) {
+						w_rule = 'width: ' + data.width + 'px;';
+					} else if ( wp.media.view.settings.contentWidth ) {
+						w_rule = 'width: ' + wp.media.view.settings.contentWidth + 'px;';
+					}
+				#>
+				<div style="{{ w_rule }}" class="wp-media-wrapper wp-video">
+					<video controls="controls" class="wp-video-shortcode" preload="metadata"
+						<# if ( data.width ) { #>width="{{ data.width }}"<# } #>
+						<# if ( data.height ) { #>height="{{ data.height }}"<# } #>
+						<# if ( data.image && data.image.src !== data.icon ) { #>poster="{{ data.image.src }}"<# } #>>
+						<source type="{{ data.mime }}" src="{{ data.url }}"/>
+					
+				
+				<# } #>
+
+				<div class="attachment-actions">
+					<# if ( 'image' === data.type && ! data.uploading && data.sizes && data.can.save ) { #>
+					<button type="button" class="button edit-attachment">Edit Image
+					<# } else if ( 'pdf' === data.subtype && data.sizes ) { #>
+					<p>Document Preview
+					<# } #>
+				
+			
+		
+		<div class="attachment-info">
+			<span class="settings-save-status" role="status">
+				<span class="spinner">
+				<span class="saved">Saved.
+			
+			<div class="details">
+				<h2 class="screen-reader-text">Details
+				<div class="filename"><strong>File name: {{ data.filename }}
+				<div class="filename"><strong>File type: {{ data.mime }}
+				<div class="uploaded"><strong>Uploaded on: {{ data.dateFormatted }}
+
+				<div class="file-size"><strong>File size: {{ data.filesizeHumanReadable }}
+				<# if ( 'image' === data.type && ! data.uploading ) { #>
+					<# if ( data.width && data.height ) { #>
+						<div class="dimensions"><strong>Dimensions:
+							{{ data.width }} by {{ data.height }} pixels						
+					<# } #>
+
+					<# if ( data.originalImageURL && data.originalImageName ) { #>
+						Original image:						<a href="{{ data.originalImageURL }}">{{data.originalImageName}}
+					<# } #>
+				<# } #>
+
+				<# if ( data.fileLength && data.fileLengthHumanReadable ) { #>
+					<div class="file-length"><strong>Length:
+						<span aria-hidden="true">{{ data.fileLength }}
+						<span class="screen-reader-text">{{ data.fileLengthHumanReadable }}
+					
+				<# } #>
+
+				<# if ( 'audio' === data.type && data.meta.bitrate ) { #>
+					<div class="bitrate">
+						<strong>Bitrate: {{ Math.round( data.meta.bitrate / 1000 ) }}kb/s
+						<# if ( data.meta.bitrate_mode ) { #>
+						{{ ' ' + data.meta.bitrate_mode.toUpperCase() }}
+						<# } #>
+					
+				<# } #>
+
+				<div class="compat-meta">
+					<# if ( data.compat && data.compat.meta ) { #>
+						{{{ data.compat.meta }}}
+					<# } #>
+				
+			
+
+			<div class="settings">
+				<# var maybeReadOnly = data.can.save || data.allowLocalEdits ? '' : 'readonly'; #>
+				<# if ( 'image' === data.type ) { #>
+					<span class="setting has-description" data-setting="alt">
+						<label for="attachment-details-two-column-alt-text" class="name">Alternative Text
+						<input type="text" id="attachment-details-two-column-alt-text" value="{{ data.alt }}" aria-describedby="alt-text-description" {{ maybeReadOnly }} />
+					
+					<p class="description" id="alt-text-description"><a href="https://www.w3.org/WAI/tutorials/images/decision-tree" target="_blank" rel="noopener noreferrer">Describe the purpose of the image<span class="screen-reader-text"> (opens in a new tab). Leave empty if the image is purely decorative.
+				<# } #>
+								<span class="setting" data-setting="title">
+					<label for="attachment-details-two-column-title" class="name">Title
+					<input type="text" id="attachment-details-two-column-title" value="{{ data.title }}" {{ maybeReadOnly }} />
+				
+								<# if ( 'audio' === data.type ) { #>
+								<span class="setting" data-setting="artist">
+					<label for="attachment-details-two-column-artist" class="name">Artist
+					<input type="text" id="attachment-details-two-column-artist" value="{{ data.artist || data.meta.artist || '' }}" />
+				
+								<span class="setting" data-setting="album">
+					<label for="attachment-details-two-column-album" class="name">Album
+					<input type="text" id="attachment-details-two-column-album" value="{{ data.album || data.meta.album || '' }}" />
+				
+								<# } #>
+				<span class="setting" data-setting="caption">
+					<label for="attachment-details-two-column-caption" class="name">Caption
+					<textarea id="attachment-details-two-column-caption" {{ maybeReadOnly }}>{{ data.caption }}
+				
+				<span class="setting" data-setting="description">
+					<label for="attachment-details-two-column-description" class="name">Description
+					<textarea id="attachment-details-two-column-description" {{ maybeReadOnly }}>{{ data.description }}
+				
+				<span class="setting">
+					<span class="name">Uploaded By
+					<span class="value">{{ data.authorName }}
+				
+				<# if ( data.uploadedToTitle ) { #>
+					<span class="setting">
+						<span class="name">Uploaded To
+						<# if ( data.uploadedToLink ) { #>
+							<span class="value"><a href="{{ data.uploadedToLink }}">{{ data.uploadedToTitle }}
+						<# } else { #>
+							<span class="value">{{ data.uploadedToTitle }}
+						<# } #>
+					
+				<# } #>
+				<span class="setting" data-setting="url">
+					<label for="attachment-details-two-column-copy-link" class="name">File URL:
+					<input type="text" class="attachment-details-copy-link" id="attachment-details-two-column-copy-link" value="{{ data.url }}" readonly />
+					<span class="copy-to-clipboard-container">
+						<button type="button" class="button button-small copy-attachment-url" data-clipboard-target="#attachment-details-two-column-copy-link">Copy URL
+						<span class="success hidden" aria-hidden="true">Copied!
+					
+				
+				<div class="attachment-compat">
+			
+
+			<div class="actions">
+				<a class="view-attachment" href="{{ data.link }}">View attachment page
+				<# if ( data.can.save ) { #> |
+					<a href="{{ data.editLink }}">Edit more details
+				<# } #>
+				<# if ( ! data.uploading && data.can.remove ) { #> |
+											<# if ( 'trash' === data.status ) { #>
+							<button type="button" class="button-link untrash-attachment">Restore from Trash
+						<# } else { #>
+							<button type="button" class="button-link trash-attachment">Move to Trash
+						<# } #>
+									<# } #>
+			
+		
+	</script>
+
+		<script type="text/html" id="tmpl-attachment">
+		<div class="attachment-preview js--select-attachment type-{{ data.type }} subtype-{{ data.subtype }} {{ data.orientation }}">
+			<div class="thumbnail">
+				<# if ( data.uploading ) { #>
+					<div class="media-progress-bar"><div style="width: {{ data.percent }}%">
+				<# } else if ( 'image' === data.type && data.sizes ) { #>
+					<div class="centered">
+						<img src="{{ data.size.url }}" draggable="false" alt="" />
+					
+				<# } else { #>
+					<div class="centered">
+						<# if ( data.image && data.image.src && data.image.src !== data.icon ) { #>
+							<img src="{{ data.image.src }}" class="thumbnail" draggable="false" alt="" />
+						<# } else if ( data.sizes && data.sizes.medium ) { #>
+							<img src="{{ data.sizes.medium.url }}" class="thumbnail" draggable="false" alt="" />
+						<# } else { #>
+							<img src="{{ data.icon }}" class="icon" draggable="false" alt="" />
+						<# } #>
+					
+					<div class="filename">
+						<div>{{ data.filename }}
+					
+				<# } #>
+			
+			<# if ( data.buttons.close ) { #>
+				<button type="button" class="button-link attachment-close media-modal-icon"><span class="screen-reader-text">Remove
+			<# } #>
+		
+		<# if ( data.buttons.check ) { #>
+			<button type="button" class="check" tabindex="-1"><span class="media-modal-icon"><span class="screen-reader-text">Deselect
+		<# } #>
+		<#
+		var maybeReadOnly = data.can.save || data.allowLocalEdits ? '' : 'readonly';
+		if ( data.describe ) {
+			if ( 'image' === data.type ) { #>
+				<input type="text" value="{{ data.caption }}" class="describe" data-setting="caption"
+					aria-label="Caption"
+					placeholder="Caption&hellip;" {{ maybeReadOnly }} />
+			<# } else { #>
+				<input type="text" value="{{ data.title }}" class="describe" data-setting="title"
+					<# if ( 'video' === data.type ) { #>
+						aria-label="Video title"
+						placeholder="Video title&hellip;"
+					<# } else if ( 'audio' === data.type ) { #>
+						aria-label="Audio title"
+						placeholder="Audio title&hellip;"
+					<# } else { #>
+						aria-label="Media title"
+						placeholder="Media title&hellip;"
+					<# } #> {{ maybeReadOnly }} />
+			<# }
+		} #>
+	</script>
+
+		<script type="text/html" id="tmpl-attachment-details">
+		<h2>
+			Attachment Details			<span class="settings-save-status" role="status">
+				<span class="spinner">
+				<span class="saved">Saved.
+			
+		
+		<div class="attachment-info">
+			<div class="thumbnail thumbnail-{{ data.type }}">
+				<# if ( data.uploading ) { #>
+					<div class="media-progress-bar"><div>
+				<# } else if ( 'image' === data.type && data.sizes ) { #>
+					<img src="{{ data.size.url }}" draggable="false" alt="" />
+				<# } else { #>
+					<img src="{{ data.icon }}" class="icon" draggable="false" alt="" />
+				<# } #>
+			
+			<div class="details">
+				<div class="filename">{{ data.filename }}
+				<div class="uploaded">{{ data.dateFormatted }}
+
+				<div class="file-size">{{ data.filesizeHumanReadable }}
+				<# if ( 'image' === data.type && ! data.uploading ) { #>
+					<# if ( data.width && data.height ) { #>
+						<div class="dimensions">
+							{{ data.width }} by {{ data.height }} pixels						
+					<# } #>
+
+					<# if ( data.originalImageURL && data.originalImageName ) { #>
+						Original image:						<a href="{{ data.originalImageURL }}">{{data.originalImageName}}
+					<# } #>
+
+					<# if ( data.can.save && data.sizes ) { #>
+						<a class="edit-attachment" href="{{ data.editLink }}&amp;image-editor" target="_blank">Edit Image
+					<# } #>
+				<# } #>
+
+				<# if ( data.fileLength && data.fileLengthHumanReadable ) { #>
+					<div class="file-length">Length:						<span aria-hidden="true">{{ data.fileLength }}
+						<span class="screen-reader-text">{{ data.fileLengthHumanReadable }}
+					
+				<# } #>
+
+				<# if ( ! data.uploading && data.can.remove ) { #>
+										<# if ( 'trash' === data.status ) { #>
+						<button type="button" class="button-link untrash-attachment">Restore from Trash
+					<# } else { #>
+						<button type="button" class="button-link trash-attachment">Move to Trash
+					<# } #>
+									<# } #>
+
+				<div class="compat-meta">
+					<# if ( data.compat && data.compat.meta ) { #>
+						{{{ data.compat.meta }}}
+					<# } #>
+				
+			
+		
+		<# var maybeReadOnly = data.can.save || data.allowLocalEdits ? '' : 'readonly'; #>
+		<# if ( 'image' === data.type ) { #>
+			<span class="setting has-description" data-setting="alt">
+				<label for="attachment-details-alt-text" class="name">Alt Text
+				<input type="text" id="attachment-details-alt-text" value="{{ data.alt }}" aria-describedby="alt-text-description" {{ maybeReadOnly }} />
+			
+			<p class="description" id="alt-text-description"><a href="https://www.w3.org/WAI/tutorials/images/decision-tree" target="_blank" rel="noopener noreferrer">Describe the purpose of the image<span class="screen-reader-text"> (opens in a new tab). Leave empty if the image is purely decorative.
+		<# } #>
+				<span class="setting" data-setting="title">
+			<label for="attachment-details-title" class="name">Title
+			<input type="text" id="attachment-details-title" value="{{ data.title }}" {{ maybeReadOnly }} />
+		
+				<# if ( 'audio' === data.type ) { #>
+				<span class="setting" data-setting="artist">
+			<label for="attachment-details-artist" class="name">Artist
+			<input type="text" id="attachment-details-artist" value="{{ data.artist || data.meta.artist || '' }}" />
+		
+				<span class="setting" data-setting="album">
+			<label for="attachment-details-album" class="name">Album
+			<input type="text" id="attachment-details-album" value="{{ data.album || data.meta.album || '' }}" />
+		
+				<# } #>
+		<span class="setting" data-setting="caption">
+			<label for="attachment-details-caption" class="name">Caption
+			<textarea id="attachment-details-caption" {{ maybeReadOnly }}>{{ data.caption }}
+		
+		<span class="setting" data-setting="description">
+			<label for="attachment-details-description" class="name">Description
+			<textarea id="attachment-details-description" {{ maybeReadOnly }}>{{ data.description }}
+		
+		<span class="setting" data-setting="url">
+			<label for="attachment-details-copy-link" class="name">File URL:
+			<input type="text" class="attachment-details-copy-link" id="attachment-details-copy-link" value="{{ data.url }}" readonly />
+			<div class="copy-to-clipboard-container">
+				<button type="button" class="button button-small copy-attachment-url" data-clipboard-target="#attachment-details-copy-link">Copy URL
+				<span class="success hidden" aria-hidden="true">Copied!
+			
+		
+	</script>
+
+		<script type="text/html" id="tmpl-media-selection">
+		<div class="selection-info">
+			<span class="count">
+			<# if ( data.editable ) { #>
+				<button type="button" class="button-link edit-selection">Edit Selection
+			<# } #>
+			<# if ( data.clearable ) { #>
+				<button type="button" class="button-link clear-selection">Clear
+			<# } #>
+		
+		<div class="selection-view">
+	</script>
+
+		<script type="text/html" id="tmpl-attachment-display-settings">
+		<h2>Attachment Display Settings
+
+		<# if ( 'image' === data.type ) { #>
+			<span class="setting align">
+				<label for="attachment-display-settings-alignment" class="name">Alignment
+				<select id="attachment-display-settings-alignment" class="alignment"
+					data-setting="align"
+					<# if ( data.userSettings ) { #>
+						data-user-setting="align"
+					<# } #>>
+
+					<option value="left">
+						Left					
+					<option value="center">
+						Center					
+					<option value="right">
+						Right					
+					<option value="none" selected>
+						None					
+				
+			
+		<# } #>
+
+		<span class="setting">
+			<label for="attachment-display-settings-link-to" class="name">
+				<# if ( data.model.canEmbed ) { #>
+					Embed or Link				<# } else { #>
+					Link To				<# } #>
+			
+			<select id="attachment-display-settings-link-to" class="link-to"
+				data-setting="link"
+				<# if ( data.userSettings && ! data.model.canEmbed ) { #>
+					data-user-setting="urlbutton"
+				<# } #>>
+
+			<# if ( data.model.canEmbed ) { #>
+				<option value="embed" selected>
+					Embed Media Player				
+				<option value="file">
+			<# } else { #>
+				<option value="none" selected>
+					None				
+				<option value="file">
+			<# } #>
+				<# if ( data.model.canEmbed ) { #>
+					Link to Media File				<# } else { #>
+					Media File				<# } #>
+				
+				<option value="post">
+				<# if ( data.model.canEmbed ) { #>
+					Link to Attachment Page				<# } else { #>
+					Attachment Page				<# } #>
+				
+			<# if ( 'image' === data.type ) { #>
+				<option value="custom">
+					Custom URL				
+			<# } #>
+			
+		
+		<span class="setting">
+			<label for="attachment-display-settings-link-to-custom" class="name">URL
+			<input type="text" id="attachment-display-settings-link-to-custom" class="link-to-custom" data-setting="linkUrl" />
+		
+
+		<# if ( 'undefined' !== typeof data.sizes ) { #>
+			<span class="setting">
+				<label for="attachment-display-settings-size" class="name">Size
+				<select id="attachment-display-settings-size" class="size" name="size"
+					data-setting="size"
+					<# if ( data.userSettings ) { #>
+						data-user-setting="imgsize"
+					<# } #>>
+											<#
+						var size = data.sizes['thumbnail'];
+						if ( size ) { #>
+							<option value="thumbnail" >
+								Thumbnail &ndash; {{ size.width }} &times; {{ size.height }}
+							
+						<# } #>
+											<#
+						var size = data.sizes['medium'];
+						if ( size ) { #>
+							<option value="medium" >
+								Medium &ndash; {{ size.width }} &times; {{ size.height }}
+							
+						<# } #>
+											<#
+						var size = data.sizes['large'];
+						if ( size ) { #>
+							<option value="large" >
+								Large &ndash; {{ size.width }} &times; {{ size.height }}
+							
+						<# } #>
+											<#
+						var size = data.sizes['full'];
+						if ( size ) { #>
+							<option value="full"  selected='selected'>
+								Full Size &ndash; {{ size.width }} &times; {{ size.height }}
+							
+						<# } #>
+									
+			
+		<# } #>
+	</script>
+
+		<script type="text/html" id="tmpl-gallery-settings">
+		<h2>Gallery Settings
+
+		<span class="setting">
+			<label for="gallery-settings-link-to" class="name">Link To
+			<select id="gallery-settings-link-to" class="link-to"
+				data-setting="link"
+				<# if ( data.userSettings ) { #>
+					data-user-setting="urlbutton"
+				<# } #>>
+
+				<option value="post" <# if ( ! wp.media.galleryDefaults.link || 'post' === wp.media.galleryDefaults.link ) {
+					#>selected="selected"<# }
+				#>>
+					Attachment Page				
+				<option value="file" <# if ( 'file' === wp.media.galleryDefaults.link ) { #>selected="selected"<# } #>>
+					Media File				
+				<option value="none" <# if ( 'none' === wp.media.galleryDefaults.link ) { #>selected="selected"<# } #>>
+					None				
+			
+		
+
+		<span class="setting">
+			<label for="gallery-settings-columns" class="name select-label-inline">Columns
+			<select id="gallery-settings-columns" class="columns" name="columns"
+				data-setting="columns">
+									<option value="1" <#
+						if ( 1 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						1					
+									<option value="2" <#
+						if ( 2 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						2					
+									<option value="3" <#
+						if ( 3 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						3					
+									<option value="4" <#
+						if ( 4 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						4					
+									<option value="5" <#
+						if ( 5 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						5					
+									<option value="6" <#
+						if ( 6 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						6					
+									<option value="7" <#
+						if ( 7 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						7					
+									<option value="8" <#
+						if ( 8 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						8					
+									<option value="9" <#
+						if ( 9 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						9					
+							
+		
+
+		<span class="setting">
+			<input type="checkbox" id="gallery-settings-random-order" data-setting="_orderbyRandom" />
+			<label for="gallery-settings-random-order" class="checkbox-label-inline">Random Order
+		
+
+		<span class="setting size">
+			<label for="gallery-settings-size" class="name">Size
+			<select id="gallery-settings-size" class="size" name="size"
+				data-setting="size"
+				<# if ( data.userSettings ) { #>
+					data-user-setting="imgsize"
+				<# } #>
+				>
+									<option value="thumbnail">
+						Thumbnail					
+									<option value="medium">
+						Medium					
+									<option value="large">
+						Large					
+									<option value="full">
+						Full Size					
+							
+		
+	</script>
+
+		<script type="text/html" id="tmpl-playlist-settings">
+		<h2>Playlist Settings
+
+		<# var emptyModel = _.isEmpty( data.model ),
+			isVideo = 'video' === data.controller.get('library').props.get('type'); #>
+
+		<span class="setting">
+			<input type="checkbox" id="playlist-settings-show-list" data-setting="tracklist" <# if ( emptyModel ) { #>
+				checked="checked"
+			<# } #> />
+			<label for="playlist-settings-show-list" class="checkbox-label-inline">
+				<# if ( isVideo ) { #>
+				Show Video List				<# } else { #>
+				Show Tracklist				<# } #>
+			
+		
+
+		<# if ( ! isVideo ) { #>
+		<span class="setting">
+			<input type="checkbox" id="playlist-settings-show-artist" data-setting="artists" <# if ( emptyModel ) { #>
+				checked="checked"
+			<# } #> />
+			<label for="playlist-settings-show-artist" class="checkbox-label-inline">
+				Show Artist Name in Tracklist			
+		
+		<# } #>
+
+		<span class="setting">
+			<input type="checkbox" id="playlist-settings-show-images" data-setting="images" <# if ( emptyModel ) { #>
+				checked="checked"
+			<# } #> />
+			<label for="playlist-settings-show-images" class="checkbox-label-inline">
+				Show Images			
+		
+	</script>
+
+		<script type="text/html" id="tmpl-embed-link-settings">
+		<span class="setting link-text">
+			<label for="embed-link-settings-link-text" class="name">Link Text
+			<input type="text" id="embed-link-settings-link-text" class="alignment" data-setting="linkText" />
+		
+		<div class="embed-container" style="display: none;">
+			<div class="embed-preview">
+		
+	</script>
+
+		<script type="text/html" id="tmpl-embed-image-settings">
+		<div class="wp-clearfix">
+			<div class="thumbnail">
+				<img src="{{ data.model.url }}" draggable="false" alt="" />
+			
+		
+
+		<span class="setting alt-text has-description">
+			<label for="embed-image-settings-alt-text" class="name">Alternative Text
+			<input type="text" id="embed-image-settings-alt-text" data-setting="alt" aria-describedby="alt-text-description" />
+		
+		<p class="description" id="alt-text-description"><a href="https://www.w3.org/WAI/tutorials/images/decision-tree" target="_blank" rel="noopener noreferrer">Describe the purpose of the image<span class="screen-reader-text"> (opens in a new tab). Leave empty if the image is purely decorative.
+
+					<span class="setting caption">
+				<label for="embed-image-settings-caption" class="name">Caption
+				<textarea id="embed-image-settings-caption" data-setting="caption" />
+			
+		
+		<fieldset class="setting-group">
+			<legend class="name">Align
+			<span class="setting align">
+				<span class="button-group button-large" data-setting="align">
+					<button class="button" value="left">
+						Left					
+					<button class="button" value="center">
+						Center					
+					<button class="button" value="right">
+						Right					
+					<button class="button active" value="none">
+						None					
+				
+			
+		
+
+		<fieldset class="setting-group">
+			<legend class="name">Link To
+			<span class="setting link-to">
+				<span class="button-group button-large" data-setting="link">
+					<button class="button" value="file">
+						Image URL					
+					<button class="button" value="custom">
+						Custom URL					
+					<button class="button active" value="none">
+						None					
+				
+			
+			<span class="setting">
+				<label for="embed-image-settings-link-to-custom" class="name">URL
+				<input type="text" id="embed-image-settings-link-to-custom" class="link-to-custom" data-setting="linkUrl" />
+			
+		
+	</script>
+
+		<script type="text/html" id="tmpl-image-details">
+		<div class="media-embed">
+			<div class="embed-media-settings">
+				<div class="column-settings">
+					<span class="setting alt-text has-description">
+						<label for="image-details-alt-text" class="name">Alternative Text
+						<input type="text" id="image-details-alt-text" data-setting="alt" value="{{ data.model.alt }}" aria-describedby="alt-text-description" />
+					
+					<p class="description" id="alt-text-description"><a href="https://www.w3.org/WAI/tutorials/images/decision-tree" target="_blank" rel="noopener noreferrer">Describe the purpose of the image<span class="screen-reader-text"> (opens in a new tab). Leave empty if the image is purely decorative.
+
+											<span class="setting caption">
+							<label for="image-details-caption" class="name">Caption
+							<textarea id="image-details-caption" data-setting="caption">{{ data.model.caption }}
+						
+					
+					<h2>Display Settings
+					<fieldset class="setting-group">
+						<legend class="legend-inline">Align
+						<span class="setting align">
+							<span class="button-group button-large" data-setting="align">
+								<button class="button" value="left">
+									Left								
+								<button class="button" value="center">
+									Center								
+								<button class="button" value="right">
+									Right								
+								<button class="button active" value="none">
+									None								
+							
+						
+					
+
+					<# if ( data.attachment ) { #>
+						<# if ( 'undefined' !== typeof data.attachment.sizes ) { #>
+							<span class="setting size">
+								<label for="image-details-size" class="name">Size
+								<select id="image-details-size" class="size" name="size"
+									data-setting="size"
+									<# if ( data.userSettings ) { #>
+										data-user-setting="imgsize"
+									<# } #>>
+																			<#
+										var size = data.sizes['thumbnail'];
+										if ( size ) { #>
+											<option value="thumbnail">
+												Thumbnail &ndash; {{ size.width }} &times; {{ size.height }}
+											
+										<# } #>
+																			<#
+										var size = data.sizes['medium'];
+										if ( size ) { #>
+											<option value="medium">
+												Medium &ndash; {{ size.width }} &times; {{ size.height }}
+											
+										<# } #>
+																			<#
+										var size = data.sizes['large'];
+										if ( size ) { #>
+											<option value="large">
+												Large &ndash; {{ size.width }} &times; {{ size.height }}
+											
+										<# } #>
+																			<#
+										var size = data.sizes['full'];
+										if ( size ) { #>
+											<option value="full">
+												Full Size &ndash; {{ size.width }} &times; {{ size.height }}
+											
+										<# } #>
+																		<option value="custom">
+										Custom Size									
+								
+							
+						<# } #>
+							<div class="custom-size wp-clearfix<# if ( data.model.size !== 'custom' ) { #> hidden<# } #>">
+								<span class="custom-size-setting">
+									<label for="image-details-size-width">Width
+									<input type="number" id="image-details-size-width" aria-describedby="image-size-desc" data-setting="customWidth" step="1" value="{{ data.model.customWidth }}" />
+								
+								<span class="sep" aria-hidden="true">&times;
+								<span class="custom-size-setting">
+									<label for="image-details-size-height">Height
+									<input type="number" id="image-details-size-height" aria-describedby="image-size-desc" data-setting="customHeight" step="1" value="{{ data.model.customHeight }}" />
+								
+								<p id="image-size-desc" class="description">Image size in pixels
+							
+					<# } #>
+
+					<span class="setting link-to">
+						<label for="image-details-link-to" class="name">Link To
+						<select id="image-details-link-to" data-setting="link">
+						<# if ( data.attachment ) { #>
+							<option value="file">
+								Media File							
+							<option value="post">
+								Attachment Page							
+						<# } else { #>
+							<option value="file">
+								Image URL							
+						<# } #>
+							<option value="custom">
+								Custom URL							
+							<option value="none">
+								None							
+						
+					
+					<span class="setting">
+						<label for="image-details-link-to-custom" class="name">URL
+						<input type="text" id="image-details-link-to-custom" class="link-to-custom" data-setting="linkUrl" />
+					
+
+					<div class="advanced-section">
+						<h2><button type="button" class="button-link advanced-toggle">Advanced Options
+						<div class="advanced-settings hidden">
+							<div class="advanced-image">
+								<span class="setting title-text">
+									<label for="image-details-title-attribute" class="name">Image Title Attribute
+									<input type="text" id="image-details-title-attribute" data-setting="title" value="{{ data.model.title }}" />
+								
+								<span class="setting extra-classes">
+									<label for="image-details-css-class" class="name">Image CSS Class
+									<input type="text" id="image-details-css-class" data-setting="extraClasses" value="{{ data.model.extraClasses }}" />
+								
+							
+							<div class="advanced-link">
+								<span class="setting link-target">
+									<input type="checkbox" id="image-details-link-target" data-setting="linkTargetBlank" value="_blank" <# if ( data.model.linkTargetBlank ) { #>checked="checked"<# } #>>
+									<label for="image-details-link-target" class="checkbox-label">Open link in a new tab
+								
+								<span class="setting link-rel">
+									<label for="image-details-link-rel" class="name">Link Rel
+									<input type="text" id="image-details-link-rel" data-setting="linkRel" value="{{ data.model.linkRel }}" />
+								
+								<span class="setting link-class-name">
+									<label for="image-details-link-css-class" class="name">Link CSS Class
+									<input type="text" id="image-details-link-css-class" data-setting="linkClassName" value="{{ data.model.linkClassName }}" />
+								
+							
+						
+					
+				
+				<div class="column-image">
+					<div class="image">
+						<img src="{{ data.model.url }}" draggable="false" alt="" />
+						<# if ( data.attachment && window.imageEdit ) { #>
+							<div class="actions">
+								<input type="button" class="edit-attachment button" value="Edit Original" />
+								<input type="button" class="replace-attachment button" value="Replace" />
+							
+						<# } #>
+					
+				
+			
+		
+	</script>
+
+		<script type="text/html" id="tmpl-image-editor">
+		<div id="media-head-{{ data.id }}">
+		<div id="image-editor-{{ data.id }}">
+	</script>
+
+		<script type="text/html" id="tmpl-audio-details">
+		<# var ext, html5types = {
+			mp3: wp.media.view.settings.embedMimes.mp3,
+			ogg: wp.media.view.settings.embedMimes.ogg
+		}; #>
+
+				<div class="media-embed media-embed-details">
+			<div class="embed-media-settings embed-audio-settings">
+				<audio style="visibility: hidden"
+	controls
+	class="wp-audio-shortcode"
+	width="{{ _.isUndefined( data.model.width ) ? 400 : data.model.width }}"
+	preload="{{ _.isUndefined( data.model.preload ) ? 'none' : data.model.preload }}"
+	<#
+		if ( ! _.isUndefined( data.model.autoplay ) && data.model.autoplay ) {
+		#> autoplay<#
+	}
+		if ( ! _.isUndefined( data.model.loop ) && data.model.loop ) {
+		#> loop<#
+	}
+	#>
+>
+	<# if ( ! _.isEmpty( data.model.src ) ) { #>
+	<source src="{{ data.model.src }}" type="{{ wp.media.view.settings.embedMimes[ data.model.src.split('.').pop() ] }}" />
+	<# } #>
+
+		<# if ( ! _.isEmpty( data.model.mp3 ) ) { #>
+	<source src="{{ data.model.mp3 }}" type="{{ wp.media.view.settings.embedMimes[ 'mp3' ] }}" />
+	<# } #>
+			<# if ( ! _.isEmpty( data.model.ogg ) ) { #>
+	<source src="{{ data.model.ogg }}" type="{{ wp.media.view.settings.embedMimes[ 'ogg' ] }}" />
+	<# } #>
+			<# if ( ! _.isEmpty( data.model.flac ) ) { #>
+	<source src="{{ data.model.flac }}" type="{{ wp.media.view.settings.embedMimes[ 'flac' ] }}" />
+	<# } #>
+			<# if ( ! _.isEmpty( data.model.m4a ) ) { #>
+	<source src="{{ data.model.m4a }}" type="{{ wp.media.view.settings.embedMimes[ 'm4a' ] }}" />
+	<# } #>
+			<# if ( ! _.isEmpty( data.model.wav ) ) { #>
+	<source src="{{ data.model.wav }}" type="{{ wp.media.view.settings.embedMimes[ 'wav' ] }}" />
+	<# } #>
+		
+	
+				<# if ( ! _.isEmpty( data.model.src ) ) {
+					ext = data.model.src.split('.').pop();
+					if ( html5types[ ext ] ) {
+						delete html5types[ ext ];
+					}
+				#>
+				<span class="setting">
+					<label for="audio-details-source" class="name">URL
+					<input type="text" id="audio-details-source" readonly data-setting="src" value="{{ data.model.src }}" />
+					<button type="button" class="button-link remove-setting">Remove audio source
+				
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.mp3 ) ) {
+					if ( ! _.isUndefined( html5types.mp3 ) ) {
+						delete html5types.mp3;
+					}
+				#>
+				<span class="setting">
+					<label for="audio-details-mp3-source" class="name">MP3
+					<input type="text" id="audio-details-mp3-source" readonly data-setting="mp3" value="{{ data.model.mp3 }}" />
+					<button type="button" class="button-link remove-setting">Remove audio source
+				
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.ogg ) ) {
+					if ( ! _.isUndefined( html5types.ogg ) ) {
+						delete html5types.ogg;
+					}
+				#>
+				<span class="setting">
+					<label for="audio-details-ogg-source" class="name">OGG
+					<input type="text" id="audio-details-ogg-source" readonly data-setting="ogg" value="{{ data.model.ogg }}" />
+					<button type="button" class="button-link remove-setting">Remove audio source
+				
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.flac ) ) {
+					if ( ! _.isUndefined( html5types.flac ) ) {
+						delete html5types.flac;
+					}
+				#>
+				<span class="setting">
+					<label for="audio-details-flac-source" class="name">FLAC
+					<input type="text" id="audio-details-flac-source" readonly data-setting="flac" value="{{ data.model.flac }}" />
+					<button type="button" class="button-link remove-setting">Remove audio source
+				
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.m4a ) ) {
+					if ( ! _.isUndefined( html5types.m4a ) ) {
+						delete html5types.m4a;
+					}
+				#>
+				<span class="setting">
+					<label for="audio-details-m4a-source" class="name">M4A
+					<input type="text" id="audio-details-m4a-source" readonly data-setting="m4a" value="{{ data.model.m4a }}" />
+					<button type="button" class="button-link remove-setting">Remove audio source
+				
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.wav ) ) {
+					if ( ! _.isUndefined( html5types.wav ) ) {
+						delete html5types.wav;
+					}
+				#>
+				<span class="setting">
+					<label for="audio-details-wav-source" class="name">WAV
+					<input type="text" id="audio-details-wav-source" readonly data-setting="wav" value="{{ data.model.wav }}" />
+					<button type="button" class="button-link remove-setting">Remove audio source
+				
+				<# } #>
+				
+				<# if ( ! _.isEmpty( html5types ) ) { #>
+				<fieldset class="setting-group">
+					<legend class="name">Add alternate sources for maximum HTML5 playback
+					<span class="setting">
+						<span class="button-large">
+						<# _.each( html5types, function (mime, type) { #>
+							<button class="button add-media-source" data-mime="{{ mime }}">{{ type }}
+						<# } ) #>
+						
+					
+				
+				<# } #>
+
+				<fieldset class="setting-group">
+					<legend class="name">Preload
+					<span class="setting preload">
+						<span class="button-group button-large" data-setting="preload">
+							<button class="button" value="auto">Auto
+							<button class="button" value="metadata">Metadata
+							<button class="button active" value="none">None
+						
+					
+				
+
+				<span class="setting-group">
+					<span class="setting checkbox-setting autoplay">
+						<input type="checkbox" id="audio-details-autoplay" data-setting="autoplay" />
+						<label for="audio-details-autoplay" class="checkbox-label">Autoplay
+					
+
+					<span class="setting checkbox-setting">
+						<input type="checkbox" id="audio-details-loop" data-setting="loop" />
+						<label for="audio-details-loop" class="checkbox-label">Loop
+					
+				
+			
+		
+	</script>
+
+		<script type="text/html" id="tmpl-video-details">
+		<# var ext, html5types = {
+			mp4: wp.media.view.settings.embedMimes.mp4,
+			ogv: wp.media.view.settings.embedMimes.ogv,
+			webm: wp.media.view.settings.embedMimes.webm
+		}; #>
+
+				<div class="media-embed media-embed-details">
+			<div class="embed-media-settings embed-video-settings">
+				<div class="wp-video-holder">
+				<#
+				var w = ! data.model.width || data.model.width > 640 ? 640 : data.model.width,
+					h = ! data.model.height ? 360 : data.model.height;
+
+				if ( data.model.width && w !== data.model.width ) {
+					h = Math.ceil( ( h * w ) / data.model.width );
+				}
+				#>
+
+				<#  var w_rule = '', classes = [],
+		w, h, settings = wp.media.view.settings,
+		isYouTube = isVimeo = false;
+
+	if ( ! _.isEmpty( data.model.src ) ) {
+		isYouTube = data.model.src.match(/youtube|youtu\.be/);
+		isVimeo = -1 !== data.model.src.indexOf('vimeo');
+	}
+
+	if ( settings.contentWidth && data.model.width >= settings.contentWidth ) {
+		w = settings.contentWidth;
+	} else {
+		w = data.model.width;
+	}
+
+	if ( w !== data.model.width ) {
+		h = Math.ceil( ( data.model.height * w ) / data.model.width );
+	} else {
+		h = data.model.height;
+	}
+
+	if ( w ) {
+		w_rule = 'width: ' + w + 'px; ';
+	}
+
+	if ( isYouTube ) {
+		classes.push( 'youtube-video' );
+	}
+
+	if ( isVimeo ) {
+		classes.push( 'vimeo-video' );
+	}
+
+#>
+<div style="{{ w_rule }}" class="wp-video">
+<video controls
+	class="wp-video-shortcode {{ classes.join( ' ' ) }}"
+	<# if ( w ) { #>width="{{ w }}"<# } #>
+	<# if ( h ) { #>height="{{ h }}"<# } #>
+			<#
+		if ( ! _.isUndefined( data.model.poster ) && data.model.poster ) {
+			#> poster="{{ data.model.poster }}"<#
+		} #>
+			preload			="{{ _.isUndefined( data.model.preload ) ? 'metadata' : data.model.preload }}"
+				<#
+		if ( ! _.isUndefined( data.model.autoplay ) && data.model.autoplay ) {
+		#> autoplay<#
+	}
+		if ( ! _.isUndefined( data.model.loop ) && data.model.loop ) {
+		#> loop<#
+	}
+	#>
+>
+	<# if ( ! _.isEmpty( data.model.src ) ) {
+		if ( isYouTube ) { #>
+		<source src="{{ data.model.src }}" type="video/youtube" />
+		<# } else if ( isVimeo ) { #>
+		<source src="{{ data.model.src }}" type="video/vimeo" />
+		<# } else { #>
+		<source src="{{ data.model.src }}" type="{{ settings.embedMimes[ data.model.src.split('.').pop() ] }}" />
+		<# }
+	} #>
+
+		<# if ( data.model.mp4 ) { #>
+	<source src="{{ data.model.mp4 }}" type="{{ settings.embedMimes[ 'mp4' ] }}" />
+	<# } #>
+		<# if ( data.model.m4v ) { #>
+	<source src="{{ data.model.m4v }}" type="{{ settings.embedMimes[ 'm4v' ] }}" />
+	<# } #>
+		<# if ( data.model.webm ) { #>
+	<source src="{{ data.model.webm }}" type="{{ settings.embedMimes[ 'webm' ] }}" />
+	<# } #>
+		<# if ( data.model.ogv ) { #>
+	<source src="{{ data.model.ogv }}" type="{{ settings.embedMimes[ 'ogv' ] }}" />
+	<# } #>
+		<# if ( data.model.flv ) { #>
+	<source src="{{ data.model.flv }}" type="{{ settings.embedMimes[ 'flv' ] }}" />
+	<# } #>
+		{{{ data.model.content }}}
+
+
+	
+				<# if ( ! _.isEmpty( data.model.src ) ) {
+					ext = data.model.src.split('.').pop();
+					if ( html5types[ ext ] ) {
+						delete html5types[ ext ];
+					}
+				#>
+				<span class="setting">
+					<label for="video-details-source" class="name">URL
+					<input type="text" id="video-details-source" readonly data-setting="src" value="{{ data.model.src }}" />
+					<button type="button" class="button-link remove-setting">Remove video source
+				
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.mp4 ) ) {
+					if ( ! _.isUndefined( html5types.mp4 ) ) {
+						delete html5types.mp4;
+					}
+				#>
+				<span class="setting">
+					<label for="video-details-mp4-source" class="name">MP4
+					<input type="text" id="video-details-mp4-source" readonly data-setting="mp4" value="{{ data.model.mp4 }}" />
+					<button type="button" class="button-link remove-setting">Remove video source
+				
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.m4v ) ) {
+					if ( ! _.isUndefined( html5types.m4v ) ) {
+						delete html5types.m4v;
+					}
+				#>
+				<span class="setting">
+					<label for="video-details-m4v-source" class="name">M4V
+					<input type="text" id="video-details-m4v-source" readonly data-setting="m4v" value="{{ data.model.m4v }}" />
+					<button type="button" class="button-link remove-setting">Remove video source
+				
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.webm ) ) {
+					if ( ! _.isUndefined( html5types.webm ) ) {
+						delete html5types.webm;
+					}
+				#>
+				<span class="setting">
+					<label for="video-details-webm-source" class="name">WEBM
+					<input type="text" id="video-details-webm-source" readonly data-setting="webm" value="{{ data.model.webm }}" />
+					<button type="button" class="button-link remove-setting">Remove video source
+				
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.ogv ) ) {
+					if ( ! _.isUndefined( html5types.ogv ) ) {
+						delete html5types.ogv;
+					}
+				#>
+				<span class="setting">
+					<label for="video-details-ogv-source" class="name">OGV
+					<input type="text" id="video-details-ogv-source" readonly data-setting="ogv" value="{{ data.model.ogv }}" />
+					<button type="button" class="button-link remove-setting">Remove video source
+				
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.flv ) ) {
+					if ( ! _.isUndefined( html5types.flv ) ) {
+						delete html5types.flv;
+					}
+				#>
+				<span class="setting">
+					<label for="video-details-flv-source" class="name">FLV
+					<input type="text" id="video-details-flv-source" readonly data-setting="flv" value="{{ data.model.flv }}" />
+					<button type="button" class="button-link remove-setting">Remove video source
+				
+				<# } #>
+								
+
+				<# if ( ! _.isEmpty( html5types ) ) { #>
+				<fieldset class="setting-group">
+					<legend class="name">Add alternate sources for maximum HTML5 playback
+					<span class="setting">
+						<span class="button-large">
+						<# _.each( html5types, function (mime, type) { #>
+							<button class="button add-media-source" data-mime="{{ mime }}">{{ type }}
+						<# } ) #>
+						
+					
+				
+				<# } #>
+
+				<# if ( ! _.isEmpty( data.model.poster ) ) { #>
+				<span class="setting">
+					<label for="video-details-poster-image" class="name">Poster Image
+					<input type="text" id="video-details-poster-image" readonly data-setting="poster" value="{{ data.model.poster }}" />
+					<button type="button" class="button-link remove-setting">Remove poster image
+				
+				<# } #>
+
+				<fieldset class="setting-group">
+					<legend class="name">Preload
+					<span class="setting preload">
+						<span class="button-group button-large" data-setting="preload">
+							<button class="button" value="auto">Auto
+							<button class="button" value="metadata">Metadata
+							<button class="button active" value="none">None
+						
+					
+				
+
+				<span class="setting-group">
+					<span class="setting checkbox-setting autoplay">
+						<input type="checkbox" id="video-details-autoplay" data-setting="autoplay" />
+						<label for="video-details-autoplay" class="checkbox-label">Autoplay
+					
+
+					<span class="setting checkbox-setting">
+						<input type="checkbox" id="video-details-loop" data-setting="loop" />
+						<label for="video-details-loop" class="checkbox-label">Loop
+					
+				
+
+				<span class="setting" data-setting="content">
+					<#
+					var content = '';
+					if ( ! _.isEmpty( data.model.content ) ) {
+						var tracks = jQuery( data.model.content ).filter( 'track' );
+						_.each( tracks.toArray(), function( track, index ) {
+							content += track.outerHTML; #>
+						<label for="video-details-track-{{ index }}" class="name">Tracks (subtitles, captions, descriptions, chapters, or metadata)
+						<input class="content-track" type="text" id="video-details-track-{{ index }}" aria-describedby="video-details-track-desc-{{ index }}" value="{{ track.outerHTML }}" />
+						<span class="description" id="video-details-track-desc-{{ index }}">
+						The srclang, label, and kind values can be edited to set the video track language and kind.						
+						<button type="button" class="button-link remove-setting remove-track">Remove video track<br/>
+						<# } ); #>
+					<# } else { #>
+					<span class="name">Tracks (subtitles, captions, descriptions, chapters, or metadata)<br />
+					<em>There are no associated subtitles.
+					<# } #>
+					<textarea class="hidden content-setting">{{ content }}
+				
+			
+		
+	</script>
+
+		<script type="text/html" id="tmpl-editor-gallery">
+		<# if ( data.attachments.length ) { #>
+			<div class="gallery gallery-columns-{{ data.columns }}">
+				<# _.each( data.attachments, function( attachment, index ) { #>
+					<dl class="gallery-item">
+						<dt class="gallery-icon">
+							<# if ( attachment.thumbnail ) { #>
+								<img src="{{ attachment.thumbnail.url }}" width="{{ attachment.thumbnail.width }}" height="{{ attachment.thumbnail.height }}" alt="{{ attachment.alt }}" />
+							<# } else { #>
+								<img src="{{ attachment.url }}" alt="{{ attachment.alt }}" />
+							<# } #>
+						
+						<# if ( attachment.caption ) { #>
+							<dd class="wp-caption-text gallery-caption">
+								{{{ data.verifyHTML( attachment.caption ) }}}
+							
+						<# } #>
+					
+					<# if ( index % data.columns === data.columns - 1 ) { #>
+						<br style="clear: both;">
+					<# } #>
+				<# } ); #>
+			
+		<# } else { #>
+			<div class="wpview-error">
+				<div class="dashicons dashicons-format-gallery"><p>No items found.
+			
+		<# } #>
+	</script>
+
+		<script type="text/html" id="tmpl-crop-content">
+		<img class="crop-image" src="{{ data.url }}" alt="Image crop area preview. Requires mouse interaction.">
+		<div class="upload-errors">
+	</script>
+
+		<script type="text/html" id="tmpl-site-icon-preview">
+		<h2>Preview
+		<strong aria-hidden="true">As a browser icon
+		<div class="favicon-preview">
+			<img src="https://ahmedtariq11.github.io/wp-admin/images/browser.png" class="browser-preview" width="182" height="" alt="" />
+
+			<div class="favicon">
+				<img id="preview-favicon" src="{{ data.url }}" alt="Preview as a browser icon"/>
+			
+			<span class="browser-title" aria-hidden="true"><# print( 'CONSULANT' ) #>
+		
+
+		<strong aria-hidden="true">As an app icon
+		<div class="app-icon-preview">
+			<img id="preview-app-icon" src="{{ data.url }}" alt="Preview as an app icon"/>
+		
+	</script>
+
+	<script type="text/javascript">list_args = {"class":"WP_Comments_List_Table","screen":{"id":"dashboard","base":"dashboard"}};</script>
+<script type="text/javascript">list_args = {"class":"WP_Comments_List_Table","screen":{"id":"dashboard","base":"dashboard"}};</script>
+    <div id="cs-shortcode-dialog" class="cs-dialog" title="Add Shortcode">
+      <div class="cs-dialog-header">
+        <select class="cs-dialog-select" data-placeholder="Select a shortcode">
+          <option value=""></option>
+          <optgroup label="Basic Shortcode Examples"><option value="cs_shortcode_1" data-view="normal">Basic Shortcode 1</option><option value="cs_shortcode_2" data-view="normal">Basic Shortcode 2</option><option value="cs_shortcode_3" data-view="normal">Basic Shortcode 3</option><option value="cs_shortcode_4" data-view="normal">Basic Shortcode 4</option><option value="cs_shortcode_5" data-view="normal">Basic Shortcode 5</option></optgroup><optgroup label="Simple Shortcode Examples"><option value="cs_simple_1" data-view="normal">Simple Shortcode 1</option><option value="cs_simple_2" data-view="normal">Simple Shortcode 2</option><option value="cs_simple_3" data-view="normal">Simple Shortcode 3</option></optgroup><optgroup label="Single Shortcode Examples"><option value="cs_single_1" data-view="normal">Single Shortcode 1</option><option value="cs_single_2" data-view="normal">Single Shortcode 2</option><option value="cs_single_3" data-view="normal">Single Shortcode 3</option></optgroup><optgroup label="Advanced Shortcode Examples"><option value="cs_advanced_1" data-view="clone_duplicate">Duplicate Shortcode</option><option value="cs_advanced_3" data-view="clone">Duplicate Group Shortcode</option><option value="cs_advanced_4" data-view="contents">Contents Shortcode</option></optgroup>        </select>
+      </div>
+      <div class="cs-dialog-load"></div>
+      <div class="cs-insert-button hidden">
+        <a href="#" class="button button-primary cs-dialog-insert">Insert Shortcode</a>
+      </div>
+    </div>
+  	<div id="wp-auth-check-wrap" class="hidden">
+	<div id="wp-auth-check-bg"></div>
+	<div id="wp-auth-check">
+	<button type="button" class="wp-auth-check-close button-link"><span class="screen-reader-text">Close dialog</span></button>
+			<div id="wp-auth-check-form" class="loading" data-src="https://ahmedtariq11.github.io/wp-login.php?interim-login=1&amp;wp_lang=en_US"></div>
+			<div class="wp-auth-fallback">
+		<p><b class="wp-auth-fallback-expired" tabindex="0">Session expired</b></p>
+		<p><a href="https://ahmedtariq11.github.io/wp-login.php" target="_blank">Please log in again.</a>
+		The login page will open in a new tab. After logging in you can close it and return to this page.</p>
+	</div>
+	</div>
+	</div>
+	<script type="text/javascript" src="https://ahmedtariq11.github.io/wp-admin/load-scripts.php?c=0&amp;load%5Bchunk_0%5D=hoverIntent&amp;ver=5.5.3"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4" id="wp-polyfill-js"></script>
+<script id="wp-polyfill-js-after">
+( 'fetch' in window ) || document.write( '<script src="https://ahmedtariq11.github.io/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0">' + 'ipt>' );( document.contains ) || document.write( '<script src="https://ahmedtariq11.github.io/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0">' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://ahmedtariq11.github.io/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0">' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://ahmedtariq11.github.io/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4">' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://ahmedtariq11.github.io/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12">' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://ahmedtariq11.github.io/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2">' + 'ipt>' );
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/dist/i18n.min.js?ver=bb7c3c45d012206bfcd73d6a31f84d9e" id="wp-i18n-js"></script>
+<script id="common-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script src="https://ahmedtariq11.github.io/wp-admin/js/common.min.js?ver=5.5.3" id="common-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/admin-bar.min.js?ver=5.5.3" id="admin-bar-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/clipboard.min.js?ver=5.5.3" id="clipboard-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/underscore.min.js?ver=1.8.3" id="underscore-js"></script>
+<script id="wp-util-js-extra">
+var _wpUtilSettings = {"ajax":{"url":"\/consultantthemedevelopmentwithwpbakery\/wp-admin\/admin-ajax.php"}};
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/wp-util.min.js?ver=5.5.3" id="wp-util-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/dist/dom-ready.min.js?ver=db63eb2f693cb5e38b083946b14f0684" id="wp-dom-ready-js"></script>
+<script id="wp-a11y-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/dist/a11y.min.js?ver=13971b965470c74a60fa32d392c78f2f" id="wp-a11y-js"></script>
+<script id="site-health-js-extra">
+var SiteHealth = {"screen":"dashboard","nonce":{"site_status":"00179e5aad","site_status_result":"cf5d08fb86"},"site_status":{"direct":[],"async":[],"issues":{"good":"12","recommended":"8","critical":"0"}}};
+</script>
+<script id="site-health-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script src="https://ahmedtariq11.github.io/wp-admin/js/site-health.min.js?ver=5.5.3" id="site-health-js"></script>
+<script id="wp-ajax-response-js-extra">
+var wpAjax = {"noPerm":"Sorry, you are not allowed to do that.","broken":"Something went wrong."};
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/wp-ajax-response.min.js?ver=5.5.3" id="wp-ajax-response-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/jquery/jquery.color.min.js?ver=2.1.2" id="jquery-color-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/wp-lists.min.js?ver=5.5.3" id="wp-lists-js"></script>
+<script id="quicktags-js-extra">
+var quicktagsL10n = {"closeAllOpenTags":"Close all open tags","closeTags":"close tags","enterURL":"Enter the URL","enterImageURL":"Enter the URL of the image","enterImageDescription":"Enter a description of the image","textdirection":"text direction","toggleTextdirection":"Toggle Editor Text Direction","dfw":"Distraction-free writing mode","strong":"Bold","strongClose":"Close bold tag","em":"Italic","emClose":"Close italic tag","link":"Insert link","blockquote":"Blockquote","blockquoteClose":"Close blockquote tag","del":"Deleted text (strikethrough)","delClose":"Close deleted text tag","ins":"Inserted text","insClose":"Close inserted text tag","image":"Insert image","ul":"Bulleted list","ulClose":"Close bulleted list tag","ol":"Numbered list","olClose":"Close numbered list tag","li":"List item","liClose":"Close list item tag","code":"Code","codeClose":"Close code tag","more":"Insert Read More tag"};
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/quicktags.min.js?ver=5.5.3" id="quicktags-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/jquery/jquery.query.js?ver=2.1.7" id="jquery-query-js"></script>
+<script id="admin-comments-js-extra">
+var adminCommentsSettings = {"hotkeys_highlight_first":"","hotkeys_highlight_last":""};
+</script>
+<script id="admin-comments-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script src="https://ahmedtariq11.github.io/wp-admin/js/edit-comments.min.js?ver=5.5.3" id="admin-comments-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4" id="jquery-ui-core-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4" id="jquery-ui-widget-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4" id="jquery-ui-mouse-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4" id="jquery-ui-sortable-js"></script>
+<script id="postbox-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script src="https://ahmedtariq11.github.io/wp-admin/js/postbox.min.js?ver=5.5.3" id="postbox-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/dist/vendor/moment.min.js?ver=2.26.0" id="moment-js"></script>
+<script id="moment-js-after">
+moment.updateLocale( 'en_US', {"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"week":{"dow":1},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"F j, Y","LLL":"F j, Y g:i a","LLLL":null}} );
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/dist/date.min.js?ver=09eae2d679436dd6bd745b0e8b1687e9" id="wp-date-js"></script>
+<script id="wp-date-js-after">
+wp.date.setSettings( {"l10n":{"locale":"en_US","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"meridiem":{"am":"am","pm":"pm","AM":"AM","PM":"PM"},"relative":{"future":"%s from now","past":"%s ago"}},"formats":{"time":"g:i a","date":"F j, Y","datetime":"F j, Y g:i a","datetimeAbbreviated":"M j, Y g:i a"},"timezone":{"offset":"0","string":""}} );
+</script>
+<script id="dashboard-js-extra">
+var communityEventsData = {"nonce":"784aac3816","cache":"","time_format":"g:i a","l10n":{"enter_closest_city":"Enter your closest city to find nearby events.","error_occurred_please_try_again":"An error occurred. Please try again.","attend_event_near_generic":"Attend an upcoming event near you.","could_not_locate_city":"We couldn&#8217;t locate %s. Please try another nearby city. For example: Kansas City; Springfield; Portland.","city_updated":"City updated. Listing events near %s."}};
+</script>
+<script id="dashboard-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script src="https://ahmedtariq11.github.io/wp-admin/js/dashboard.min.js?ver=5.5.3" id="dashboard-js"></script>
+<script id="thickbox-js-extra">
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/ahmedtariq11.github.io\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105" id="thickbox-js"></script>
+<script id="plugin-install-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script src="https://ahmedtariq11.github.io/wp-admin/js/plugin-install.min.js?ver=5.5.3" id="plugin-install-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/wp-sanitize.min.js?ver=5.5.3" id="wp-sanitize-js"></script>
+<script id="updates-js-extra">
+var _wpUpdatesSettings = {"ajax_nonce":"b337e0daba"};
+</script>
+<script id="updates-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script src="https://ahmedtariq11.github.io/wp-admin/js/updates.min.js?ver=5.5.3" id="updates-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/shortcode.min.js?ver=5.5.3" id="shortcode-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-admin/js/media-upload.min.js?ver=5.5.3" id="media-upload-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-admin/js/svg-painter.js?ver=5.5.3" id="svg-painter-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/dist/hooks.min.js?ver=b4778690e29d8a2b7518413652ba30c4" id="wp-hooks-js"></script>
+<script id="heartbeat-js-extra">
+var heartbeatSettings = {"nonce":"561f33c214"};
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/heartbeat.min.js?ver=5.5.3" id="heartbeat-js"></script>
+<script id="wp-auth-check-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/wp-auth-check.min.js?ver=5.5.3" id="wp-auth-check-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/backbone.min.js?ver=1.4.0" id="backbone-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/wp-backbone.min.js?ver=5.5.3" id="wp-backbone-js"></script>
+<script id="media-models-js-extra">
+var _wpMediaModelsL10n = {"settings":{"ajaxurl":"\/consultantthemedevelopmentwithwpbakery\/wp-admin\/admin-ajax.php","post":{"id":0}}};
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/media-models.min.js?ver=5.5.3" id="media-models-js"></script>
+<script id="wp-plupload-js-extra">
+var pluploadL10n = {"queue_limit_exceeded":"You have attempted to queue too many files.","file_exceeds_size_limit":"%s exceeds the maximum upload size for this site.","zero_byte_file":"This file is empty. Please try another.","invalid_filetype":"Sorry, this file type is not permitted for security reasons.","not_an_image":"This file is not an image. Please try another.","image_memory_exceeded":"Memory exceeded. Please try another smaller file.","image_dimensions_exceeded":"This is larger than the maximum size. Please try another.","default_error":"An error occurred in the upload. Please try again later.","missing_upload_url":"There was a configuration error. Please contact the server administrator.","upload_limit_exceeded":"You may only upload 1 file.","http_error":"Unexpected response from the server. The file may have been uploaded successfully. Check in the Media Library or reload the page.","http_error_image":"Post-processing of the image failed likely because the server is busy or does not have enough resources. Uploading a smaller image may help. Suggested maximum size is 2500 pixels.","upload_failed":"Upload failed.","big_upload_failed":"Please try uploading this file with the %1$sbrowser uploader%2$s.","big_upload_queued":"%s exceeds the maximum upload size for the multi-file uploader when used in your browser.","io_error":"IO error.","security_error":"Security error.","file_cancelled":"File canceled.","upload_stopped":"Upload stopped.","dismiss":"Dismiss","crunching":"Crunching\u2026","deleted":"moved to the Trash.","error_uploading":"\u201c%s\u201d has failed to upload.","unsupported_image":"This image cannot be displayed in a web browser. For best results convert it to JPEG before uploading."};
+var _wpPluploadSettings = {"defaults":{"file_data_name":"async-upload","url":"\/consultantthemedevelopmentwithwpbakery\/wp-admin\/async-upload.php","filters":{"max_file_size":"41943040b","mime_types":[{"extensions":"jpg,jpeg,jpe,gif,png,bmp,tiff,tif,ico,heic,asf,asx,wmv,wmx,wm,avi,divx,flv,mov,qt,mpeg,mpg,mpe,mp4,m4v,ogv,webm,mkv,3gp,3gpp,3g2,3gp2,txt,asc,c,cc,h,srt,csv,tsv,ics,rtx,css,htm,html,vtt,dfxp,mp3,m4a,m4b,aac,ra,ram,wav,ogg,oga,flac,mid,midi,wma,wax,mka,rtf,js,pdf,class,tar,zip,gz,gzip,rar,7z,psd,xcf,doc,pot,pps,ppt,wri,xla,xls,xlt,xlw,mdb,mpp,docx,docm,dotx,dotm,xlsx,xlsm,xlsb,xltx,xltm,xlam,pptx,pptm,ppsx,ppsm,potx,potm,ppam,sldx,sldm,onetoc,onetoc2,onetmp,onepkg,oxps,xps,odt,odp,ods,odg,odc,odb,odf,wp,wpd,key,numbers,pages"}]},"heic_upload_error":true,"multipart_params":{"action":"upload-attachment","_wpnonce":"6119561d2c"}},"browser":{"mobile":false,"supported":true},"limitExceeded":false};
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/plupload/wp-plupload.min.js?ver=5.5.3" id="wp-plupload-js"></script>
+<script id="mediaelement-core-js-before">
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.13-9993131" id="mediaelement-core-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=5.5.3" id="mediaelement-migrate-js"></script>
+<script id="mediaelement-js-extra">
+var _wpmejsSettings = {"pluginPath":"\/consultantthemedevelopmentwithwpbakery\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=5.5.3" id="wp-mediaelement-js"></script>
+<script id="wp-api-request-js-extra">
+var wpApiSettings = {"root":"https:\/\/ahmedtariq11.github.io\/wp-json\/","nonce":"47c297894e","versionString":"wp\/v2\/"};
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/api-request.min.js?ver=5.5.3" id="wp-api-request-js"></script>
+<script id="media-views-js-extra">
+var _wpMediaViewsL10n = {"mediaFrameDefaultTitle":"Media","url":"URL","addMedia":"Add media","search":"Search","select":"Select","cancel":"Cancel","update":"Update","replace":"Replace","remove":"Remove","back":"Back","selected":"%d selected","dragInfo":"Drag and drop to reorder media files.","uploadFilesTitle":"Upload files","uploadImagesTitle":"Upload images","mediaLibraryTitle":"Media Library","insertMediaTitle":"Add media","createNewGallery":"Create a new gallery","createNewPlaylist":"Create a new playlist","createNewVideoPlaylist":"Create a new video playlist","returnToLibrary":"\u2190 Return to library","allMediaItems":"All media items","allDates":"All dates","noItemsFound":"No items found.","insertIntoPost":"Insert into post","unattached":"Unattached","mine":"Mine","trash":"Trash","uploadedToThisPost":"Uploaded to this post","warnDelete":"You are about to permanently delete this item from your site.\nThis action cannot be undone.\n 'Cancel' to stop, 'OK' to delete.","warnBulkDelete":"You are about to permanently delete these items from your site.\nThis action cannot be undone.\n 'Cancel' to stop, 'OK' to delete.","warnBulkTrash":"You are about to trash these items.\n  'Cancel' to stop, 'OK' to delete.","bulkSelect":"Bulk select","trashSelected":"Move to Trash","restoreSelected":"Restore from Trash","deletePermanently":"Delete permanently","apply":"Apply","filterByDate":"Filter by date","filterByType":"Filter by type","searchLabel":"Search","searchMediaLabel":"Search media","searchMediaPlaceholder":"Search media items...","mediaFound":"Number of media items found: %d","mediaFoundHasMoreResults":"Number of media items displayed: %d. Scroll the page for more results.","noMedia":"No media items found.","noMediaTryNewSearch":"No media items found. Try a different search.","attachmentDetails":"Attachment details","insertFromUrlTitle":"Insert from URL","setFeaturedImageTitle":"Featured image","setFeaturedImage":"Set featured image","createGalleryTitle":"Create gallery","editGalleryTitle":"Edit gallery","cancelGalleryTitle":"\u2190 Cancel gallery","insertGallery":"Insert gallery","updateGallery":"Update gallery","addToGallery":"Add to gallery","addToGalleryTitle":"Add to gallery","reverseOrder":"Reverse order","imageDetailsTitle":"Image details","imageReplaceTitle":"Replace image","imageDetailsCancel":"Cancel edit","editImage":"Edit image","chooseImage":"Choose image","selectAndCrop":"Select and crop","skipCropping":"Skip cropping","cropImage":"Crop image","cropYourImage":"Crop your image","cropping":"Cropping\u2026","suggestedDimensions":"Suggested image dimensions: %1$s by %2$s pixels.","cropError":"There has been an error cropping your image.","audioDetailsTitle":"Audio details","audioReplaceTitle":"Replace audio","audioAddSourceTitle":"Add audio source","audioDetailsCancel":"Cancel edit","videoDetailsTitle":"Video details","videoReplaceTitle":"Replace video","videoAddSourceTitle":"Add video source","videoDetailsCancel":"Cancel edit","videoSelectPosterImageTitle":"Select poster image","videoAddTrackTitle":"Add subtitles","playlistDragInfo":"Drag and drop to reorder tracks.","createPlaylistTitle":"Create audio playlist","editPlaylistTitle":"Edit audio playlist","cancelPlaylistTitle":"\u2190 Cancel audio playlist","insertPlaylist":"Insert audio playlist","updatePlaylist":"Update audio playlist","addToPlaylist":"Add to audio playlist","addToPlaylistTitle":"Add to Audio Playlist","videoPlaylistDragInfo":"Drag and drop to reorder videos.","createVideoPlaylistTitle":"Create video playlist","editVideoPlaylistTitle":"Edit video playlist","cancelVideoPlaylistTitle":"\u2190 Cancel video playlist","insertVideoPlaylist":"Insert video playlist","updateVideoPlaylist":"Update video playlist","addToVideoPlaylist":"Add to video playlist","addToVideoPlaylistTitle":"Add to video Playlist","filterAttachments":"Filter media","attachmentsList":"Media list","settings":{"tabs":[],"tabUrl":"https:\/\/ahmedtariq11.github.io\/wp-admin\/media-upload.php?chromeless=1","mimeTypes":{"image":"Images","audio":"Audio","video":"Video","application\/msword,application\/vnd.openxmlformats-officedocument.wordprocessingml.document,application\/vnd.ms-word.document.macroEnabled.12,application\/vnd.ms-word.template.macroEnabled.12,application\/vnd.oasis.opendocument.text,application\/vnd.apple.pages,application\/pdf,application\/vnd.ms-xpsdocument,application\/oxps,application\/rtf,application\/wordperfect,application\/octet-stream":"Documents","application\/vnd.apple.numbers,application\/vnd.oasis.opendocument.spreadsheet,application\/vnd.ms-excel,application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application\/vnd.ms-excel.sheet.macroEnabled.12,application\/vnd.ms-excel.sheet.binary.macroEnabled.12":"Spreadsheets","application\/x-gzip,application\/rar,application\/x-tar,application\/zip,application\/x-7z-compressed":"Archives"},"captions":true,"nonce":{"sendToEditor":"11de6bbb10"},"post":{"id":0},"defaultProps":{"link":"none","align":"","size":""},"attachmentCounts":{"audio":1,"video":1},"oEmbedProxyUrl":"https:\/\/ahmedtariq11.github.io\/wp-json\/oembed\/1.0\/proxy","embedExts":["mp3","ogg","flac","m4a","wav","mp4","m4v","webm","ogv","flv"],"embedMimes":{"mp3":"audio\/mpeg","ogg":"audio\/ogg","flac":"audio\/flac","m4a":"audio\/mpeg","wav":"audio\/wav","mp4":"video\/mp4","m4v":"video\/mp4","webm":"video\/webm","ogv":"video\/ogg","flv":"video\/x-flv"},"contentWidth":null,"months":[{"year":"2020","month":"10","text":"October 2020"}],"mediaTrash":1}};
+</script>
+<script id="media-views-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/media-views.min.js?ver=5.5.3" id="media-views-js"></script>
+<script id="media-editor-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/media-editor.min.js?ver=5.5.3" id="media-editor-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/media-audiovideo.min.js?ver=5.5.3" id="media-audiovideo-js"></script>
+<script id="mce-view-js-extra">
+var mceViewL10n = {"shortcodes":["wp_caption","caption","gallery","playlist","audio","video","embed","section_1_base","section_3_base","section_cf","section_3_blog","section_3_portfolio","vc_container_anchor"]};
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/mce-view.min.js?ver=5.5.3" id="mce-view-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/imgareaselect/jquery.imgareaselect.min.js?ver=5.5.3" id="imgareaselect-js"></script>
+<script id="image-edit-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script src="https://ahmedtariq11.github.io/wp-admin/js/image-edit.min.js?ver=5.5.3" id="image-edit-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4" id="jquery-ui-draggable-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4" id="jquery-ui-slider-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/jquery/jquery.ui.touch-punch.js?ver=0.2.2" id="jquery-touch-punch-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-admin/js/iris.min.js?ver=1.0.7" id="iris-js"></script>
+<script id="wp-color-picker-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script src="https://ahmedtariq11.github.io/wp-admin/js/color-picker.min.js?ver=5.5.3" id="wp-color-picker-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4" id="jquery-ui-resizable-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4" id="jquery-ui-button-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4" id="jquery-ui-position-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4" id="jquery-ui-dialog-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4" id="jquery-ui-accordion-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-content/themes/consult/theme-options/assets/js/cs-plugins.js?ver=1.0.0" id="cs-plugins-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-content/themes/consult/theme-options/assets/js/cs-framework.js?ver=1.0.0" id="cs-framework-js"></script>
+<script id="wplink-js-extra">
+var wpLinkL10n = {"title":"Insert\/edit link","update":"Update","save":"Add Link","noTitle":"(no title)","noMatchesFound":"No results found.","linkSelected":"Link selected.","linkInserted":"Link inserted.","minInputLength":"3"};
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/wplink.min.js?ver=5.5.3" id="wplink-js"></script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4" id="jquery-ui-menu-js"></script>
+<script id="jquery-ui-autocomplete-js-extra">
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+</script>
+<script src="https://ahmedtariq11.github.io/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4" id="jquery-ui-autocomplete-js"></script>
+
+		<script type="text/javascript">
+		tinyMCEPreInit = {
+			baseURL: "https://ahmedtariq11.github.io/wp-includes/js/tinymce",
+			suffix: ".min",
+						mceInit: {},
+			qtInit: {'replycontent':{id:"replycontent",buttons:"strong,em,link,block,del,ins,img,ul,ol,li,code,close"}},
+			ref: {plugins:"",theme:"modern",language:""},
+			load_ext: function(url,lang){var sl=tinymce.ScriptLoader;sl.markDone(url+'/langs/'+lang+'.js');sl.markDone(url+'/langs/'+lang+'_dlg.js');}
+		};
+		</script>
+				<script type="text/javascript">
+		
+		( function() {
+			var init, id, $wrap;
+
+			if ( typeof tinymce !== 'undefined' ) {
+				if ( tinymce.Env.ie && tinymce.Env.ie < 11 ) {
+					tinymce.$( '.wp-editor-wrap ' ).removeClass( 'tmce-active' ).addClass( 'html-active' );
+					return;
+				}
+
+				for ( id in tinyMCEPreInit.mceInit ) {
+					init = tinyMCEPreInit.mceInit[id];
+					$wrap = tinymce.$( '#wp-' + id + '-wrap' );
+
+					if ( ( $wrap.hasClass( 'tmce-active' ) || ! tinyMCEPreInit.qtInit.hasOwnProperty( id ) ) && ! init.wp_skip_init ) {
+						tinymce.init( init );
+
+						if ( ! window.wpActiveEditor ) {
+							window.wpActiveEditor = id;
+						}
+					}
+				}
+			}
+
+			if ( typeof quicktags !== 'undefined' ) {
+				for ( id in tinyMCEPreInit.qtInit ) {
+					quicktags( tinyMCEPreInit.qtInit[id] );
+
+					if ( ! window.wpActiveEditor ) {
+						window.wpActiveEditor = id;
+					}
+				}
+			}
+		}());
+		</script>
+				<div id="wp-link-backdrop" style="display: none"></div>
+		<div id="wp-link-wrap" class="wp-core-ui" style="display: none" role="dialog" aria-labelledby="link-modal-title">
+		<form id="wp-link" tabindex="-1">
+		<input type="hidden" id="_ajax_linking_nonce" name="_ajax_linking_nonce" value="4e44c9ec3b">		<h1 id="link-modal-title">Insert/edit link</h1>
+		<button type="button" id="wp-link-close"><span class="screen-reader-text">Close</span></button>
+		<div id="link-selector">
+			<div id="link-options">
+				<p class="howto" id="wplink-enter-url">Enter the destination URL</p>
+				<div>
+					<label><span>URL</span>
+					<input id="wp-link-url" type="text" aria-describedby="wplink-enter-url"></label>
+				</div>
+				<div class="wp-link-text-field">
+					<label><span>Link Text</span>
+					<input id="wp-link-text" type="text"></label>
+				</div>
+				<div class="link-target">
+					<label><span></span>
+					<input type="checkbox" id="wp-link-target"> Open link in a new tab</label>
+				</div>
+			</div>
+			<p class="howto" id="wplink-link-existing-content">Or link to existing content</p>
+			<div id="search-panel">
+				<div class="link-search-wrapper">
+					<label>
+						<span class="search-label">Search</span>
+						<input type="search" id="wp-link-search" class="link-search-field" autocomplete="off" aria-describedby="wplink-link-existing-content">
+						<span class="spinner"></span>
+					</label>
+				</div>
+				<div id="search-results" class="query-results" tabindex="0">
+					<ul></ul>
+					<div class="river-waiting">
+						<span class="spinner"></span>
+					</div>
+				</div>
+				<div id="most-recent-results" class="query-results" tabindex="0">
+					<div class="query-notice" id="query-notice-message">
+						<em class="query-notice-default">No search term specified. Showing recent items.</em>
+						<em class="query-notice-hint screen-reader-text">Search or use up and down arrow keys to select an item.</em>
+					</div>
+					<ul></ul>
+					<div class="river-waiting">
+						<span class="spinner"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="submitbox">
+			<div id="wp-link-cancel">
+				<button type="button" class="button">Cancel</button>
+			</div>
+			<div id="wp-link-update">
+				<input type="submit" value="Add Link" class="button button-primary" id="wp-link-submit" name="wp-link-submit">
+			</div>
+		</div>
+		</form>
+		</div>
+		
+<div class="clear"></div>
+<script type="text/javascript">if(typeof wpOnload=='function')wpOnload();</script>
+</body>
+</html>
